@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import praikilogo from "../../../public/praiki.svg";
+import praikilogo from "@/public/LandingPageImages/praikilogo.png";
 import menu from "@/public/LandingPageImages/menu.png";
 import { useState } from "react";
 import { Inter } from "next/font/google";
@@ -31,18 +31,18 @@ export default function Header1() {
       {/* -------------------nav-header------------- */}
       <div className="flex justify-between md:justify-start items-center relative">
         {/* -----------left (logo)---------- */}
-        <div className="w-auto pr-[15px] md:pl-0 pl-6 flex justify-between items-center gap-10 lg:gap-18 h-0">
+        <div className="w-auto pr-[15px] md:pl-0 pl-6 flex justify-between items-center gap-10 lg:gap-18">
           <a href="/">
             <Image
               onClick={handlePraikiLogoClick}
-              className="w-full object-cover min-w-[107px] pt-[3px] w- h-[10rem]"
+              className="w-full object-cover min-w-[107px] pt-[3px]"
               src={praikilogo}
               alt="praiki_logo"
             />
           </a>
           <div className="hidden md:block">
             <Link
-              // href="https://praiki.com/blog/"
+              href="https://praiki.com/blog/"
               className={inter700.className}
             >
               Blog
@@ -59,7 +59,7 @@ export default function Header1() {
           <ul className="flex flex-col space-y-4 py-4 px-6 text-black">
             <li>
               <Link
-                // href="https://praiki.com/blog/"
+                href="https://praiki.com/blog/"
                 className={inter700.className}
               >
                 Blog
@@ -71,9 +71,9 @@ export default function Header1() {
               </Link>
             </li>
             <li>
-              {/* <Link href="/praiki-find-work" className={inter700.className}>
+              <Link href="/praiki-find-work" className={inter700.className}>
                 Find Work
-              </Link> */}
+              </Link>
             </li>
             <li>
               <Link className={inter700.className} href="/login">
@@ -101,9 +101,9 @@ export default function Header1() {
             </div>
             <div className="find-work shrink-0">
               {" "}
-              {/* <Link href="/praiki-find-work" className={inter700.className}>
+              <Link href="/praiki-find-work" className={inter700.className}>
                 Find Work
-              </Link> */}
+              </Link>
             </div>
           </div>
           <Link className="hidden md:block" href="/login">

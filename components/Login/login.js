@@ -669,7 +669,7 @@ function Login() {
                     </Link>
                   </span>
                 </div>
-                {/* <div className="flex justify-center lg:justify-start items-center pt-5 lg:pt-0">
+                <div className="flex justify-center lg:justify-start items-center pt-5 lg:pt-0">
                   <div className="text-lg md:text-xl pr-[15px] md:pr-[20px]">
                     Sign in with:
                   </div>
@@ -711,12 +711,14 @@ function Login() {
                           onClick={linkedInLogin}
                         >
                           <span className="">{linkdinIcon}</span>
-  
+                          {/* <p className="hidden lg:flex items-center text-sm">
+                            Sign in with Linkedin
+                          </p> */}
                         </div>
                       )}
                     </LinkedIn>
                   </div>
-                </div> */}
+                </div>
                 <div className="mt-4 mr-0 lg:mr-[20%] xl:mr-[20%]">
                   <form method="post" autoComplete="off">
                     <div

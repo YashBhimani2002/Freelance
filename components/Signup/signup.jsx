@@ -653,25 +653,25 @@ function Signup() {
                 <p
                   className={`text-[24px] md:text-[30px] leading-[52.8px] ${mulish700.className}`}
                 >
-                  Register Sucessfuly
+                  Confirm your email
                 </p>
               </div>
               <div>
                 <p
                   className={`text-[12px] md:text-[13px] ${inter400.className} text-center px-7 md:px-12`}
                 >
-                  Welcome to freelance platform
+                  Please go to your mailbox and confirm
                 </p>
                 <p
                   className={`text-[12px] md:text-[13px] ${inter400.className} text-center px-5 md:px-0`}
                 >
-                  your email ({storeEmail}) is registerd.
+                  your email ({storeEmail}). Be sure
                 </p>
-                {/* <p
+                <p
                   className={`text-[12px] md:text-[13px] ${inter400.className} text-center px-5 md:px-3`}
                 >
-                  to check please login with this email
-                </p> */}
+                  to check the spam folder
+                </p>
                 {/* <p
                   className={`text-[12px] md:text-[14px] ${inter400.className} text-center px-5 md:px-3`}
                 >
@@ -765,7 +765,7 @@ function Signup() {
                       )}
                     </div>
                   </div>
-{/* 
+
                   <div className="flex justify-center items-center flex-row">
                     <div className="text-xl pr-[20px]">Sign up with:</div>
                     <div
@@ -773,6 +773,7 @@ function Signup() {
                         selectedUserType == "" && "pointer-events-none"
                       } mobile_view  flex flex-row justify-start md:flex-row xl:items-center gap-2 xl:gap-3 my-6 md:mr-10 lg:mr-0`}
                     >
+                      {/* <div className="bg-borderBlue w-[30%] h-[5%] absolute"></div> */}
                       <GoogleAuth
                         setGoogleSignUpErrorMessage={
                           setGoogleSignUpErrorMessage
@@ -818,18 +819,18 @@ function Signup() {
                         )}
                       </LinkedIn>
                     </div>
-                  </div> */}
+                  </div>
                   {googleSignUpErrorMessage && (
                     <div className="error-message text-red flex justify-center font-bold">
                       {googleSignUpErrorMessage}
                     </div>
                   )}
 
-                  {/* <div className="flex w-full justify-center items-center">
+                  <div className="flex w-full justify-center items-center">
                     <div className="border-b-[1px] border-[#b0b5b8] w-[15%]"></div>
                     <div className="md:w-[72px] text-center mx-3">Or Email</div>
                     <div className="border-b-[1px] border-[#b0b5b8] w-[15%]"></div>
-                  </div> */}
+                  </div>
 
                   <input
                     type="hidden"

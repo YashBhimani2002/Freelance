@@ -411,7 +411,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ".././style1.css";
 import { Inter } from "next/font/google";
 import { useRouter } from "next/navigation";
-import banerImage1 from "../../../public/findJob.jpg";
+import banerImage1 from "../../../components/assets/Footer/joyful-dark-skinned-smiling-female-has-dark-hair-curly-hair-points-aside-with-thumb-1-66e2dfba1068e 1.png";
 import banerImage2 from "../../../components/assets/Footer/banner2.png";
 import banerImage3 from "../../../components/assets/Footer/banner3.png";
 import helpoverlay from "../../../public/helpoverlay.png";
@@ -470,7 +470,7 @@ export default function Hero() {
                   transform: `translateY(${scrollPosition * -0.3}px)`,
                 }}
               >
-                FreeLance facilitates easy access to professional services in
+                Praiki facilitates easy access to professional services in
                 Nigeria and other African countries.
               </p>
               <div className="sm:text-lg text-sm font-semibold flex items-start md:justify-center pr-0 md:pr-[100px]">

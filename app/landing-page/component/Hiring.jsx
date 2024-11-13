@@ -50,7 +50,7 @@
 //                 className={`${inter400.className} mb-[30px] w-[77%] text-white font-normal md:text-lg lg:text-[18px] md:text-[21px] text-[15px] tracking-wide`}
 //               >
 //                 Turn your ideas into reality with access to vetted
-//                 professionals. Let FreeLance support your success today.
+//                 professionals. Let Praiki support your success today.
 //               </p>
 //             </div>
 //             <div className="w-[20%]">
@@ -121,7 +121,7 @@ export default function Hiring() {
                 className={`${inter400.className} mb-[20px] sm:mb-[30px] w-full sm:w-[77%] text-white font-normal text-[14px] sm:text-[15px] md:text-lg lg:text-[18px] md:text-[21px] tracking-wide`}
               >
                 Turn your ideas into reality with access to vetted
-                professionals. Let FreeLance support your success today.
+                professionals. Let Praiki support your success today.
               </p>
             </div>
             <div className="w-full sm:w-[30%] md:w-[20%] text-center">

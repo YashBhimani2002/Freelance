@@ -34,7 +34,7 @@ const InternetLoss = () => {
         };
     }, []);
 
-    if (!isOnline) return null;
+    if (isOnline) return null;
     return (
         <div className="fixed bg-[#00000080] top-0 bottom-0 left-0 right-0 z-[99999999] flex justify-center items-center">
             <div className="bg-white w-auto h-auto rounded-md p-5 md:p-12 flex justify-center items-center flex-col">

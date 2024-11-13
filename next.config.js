@@ -2,7 +2,16 @@
 const nextConfig = {};
 
 module.exports = {
-  swcMinify: false,
+  images: {
+    remotePatterns: [
+      {
+        domains: ["praiki.com"],
+        protocol: "https",
+        hostname: "praiki.com",
+        pathname: "public/assets/**",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;

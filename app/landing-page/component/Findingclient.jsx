@@ -175,9 +175,9 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import client from "@/public/Woman working in office Illustration.jpg";
-import client2 from "@/public/3279765.jpg";
-import client3 from "@/public/Hire L2_L3 Support Engineers - Find Top Talent Now.jpg";
+import client from "@/public/LandingPageImages/client.jpg";
+import client2 from "@/public/LandingPageImages/homePageClient2.webp";
+import client3 from "@/public/LandingPageImages/17686-66e82d13aa050.webp";
 // import tempImage from "@/public/LandingPageImages/tempImage.webp";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

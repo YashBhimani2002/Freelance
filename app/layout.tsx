@@ -308,7 +308,7 @@ const AppWrapper = (props: any) => {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className="scrollbar-custom">
-      {/* <InternetLoss /> */}
+      <InternetLoss />
         <div className="dark:bg-boxdark-2 dark:text-bodydark bg-white scrollbar-custom">
           {componentToRender}
         </div>

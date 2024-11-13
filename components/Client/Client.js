@@ -925,7 +925,7 @@ function Client() {
                                   <Link href="/login">Log in</Link>
                                 </span>
                               </div>
-                              {/* <div
+                              <div
                                 className={`${inter500.className} flex flex-col justify-start xl:flex-row xl:items-center gap-2 xl:gap-3 my-6 pt-5 lg:pt-0 md:mr-10 lg:mr-0`}
                               >
                                 <GoogleAuth
@@ -980,14 +980,14 @@ function Client() {
                                     </div>
                                   )}
                                 </LinkedIn>
-                              </div> */}
-                              {/* <div className="or-email mt-10">
+                              </div>
+                              <div className="or-email mt-10">
                                 <p
                                   className={`${mulish400.className} text-[17px] text-[#7E8082] text-center`}
                                 >
                                   Or Sign up with Email
                                 </p>
-                              </div> */}
+                              </div>
                             </div>
 
                             <div className="grid grid-cols-2 gap-4">

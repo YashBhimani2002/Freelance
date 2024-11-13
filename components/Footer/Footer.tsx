@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import praikiLogo from "../../public/praiki.svg";
+import praikiLogo from "@/public/LandingPageImages/praikilogo.png";
 import "./Footer.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -16,16 +16,16 @@ export default function Headersmall() {
     <>
       <div className={`bg-[#1068AD] p-4 md:py-[12px] md:px-[40px] sticky top-0 ${path.includes("/praiki-find-work") && "z-10"} `}>
         <div className=" mx-[-15px] flex flex-wrap md:gap-0 gap-3 justify-between items-center">
-          <div className="px-[15px] h-[4rem] min-w-[10rem]">
+          <div className="md:w-[154px] w-full  px-[15px] ">
             <a href="/">
               <Image
                 src={praikiLogo}
                 alt="alt"
-                className="w-full h-full object-cover"
+                className="w-[105px] h-[55px] "
               />
             </a>
           </div>
-          <div className="pl-4 pr-2 md:px-[15px] flex-1 flex-row flex gap-6 items-center justify-end">
+          <div className="pl-4 pr-2 md:px-[15px] md:w-auto w-full flex-row flex gap-6 items-center">
             {!path.includes("/praiki-find-work") && (
               <div className="flex relative bg-searchbg rounded-2xl sm:w-60 w-full p-1 border border-grashad text-black mr-[8px]">
                 <button className="absolute left-0 top-1/2 -translate-y-1/2 pl-[10px]">
