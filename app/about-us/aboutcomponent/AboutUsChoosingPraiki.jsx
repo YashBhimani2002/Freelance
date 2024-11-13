@@ -48,7 +48,7 @@ export default function Businesses() {
               className={`${mulish700.className} leading-[56px] font-inter text-center lg:text-[48px] md:text-[38px] text-[22px] text-[#1A202C] md:mb-[60px] mb-[30px]`}
             >
               Millions of businesses
-              <br /> Worldwide choose Praiki
+              <br /> Worldwide choose Freelance
             </h3>
           </div>
           <div className="px-[20px] md:px-10 lg:px-20 xl:px-32 grid grid-cols-1 md:grid-cols-2 gap-4">

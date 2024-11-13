@@ -39,7 +39,7 @@ export default function Helpcenter() {
            transform: `translateY(${scrollPosition *     0.2}px)`,
          }}
         >
-          About Praiki
+          About Freelance
         </h1>
         <h1
           className={`${mulish800.className} md:hidden block  sm:mb-[25px] mb-[10px] text-box_clr lg:text-[58px] sm:text-[40px] text-[23px]  text-center`}
@@ -47,7 +47,7 @@ export default function Helpcenter() {
            transform: `translateY(${scrollPosition *     0.2}px)`,
          }}
         >
-          About Praiki
+          About Freelance
         </h1>
         <h2
           className={`${mulish400.className} md:block hidden text-post_clr tracking-wide lg:text-[18px] sm:text-[22px] lg:leading-[32px] text-center`}
@@ -55,10 +55,10 @@ export default function Helpcenter() {
            transform: `translateY(${scrollPosition *     0.2}px)`,
          }}
         >
-          Praiki was founded to solve a critical challenge in Nigeria’s
+          Freelance was founded to solve a critical challenge in India
           employment sector: effectively matching skills to opportunities.{" "}
           <br />
-          Conceived by Ronke Bankole and co-partnered by Tobi Lawson, our goal
+          Conceived by over team , our goal
           is to transform the workforce landscape.
           <br />
         </h2>
@@ -68,7 +68,7 @@ export default function Helpcenter() {
            transform: `translateY(${scrollPosition *     0.2}px)`,
          }}
         >
-          Praiki was founded to solve a critical challenge in Nigeria’s employment sector: effectively matching skills to opportunities. Conceived by Ronke Bankole and co-partnered by Tobi Lawson, our goal is to transform the workforce landscape.
+          Freelance was founded to solve a critical challenge in India employment sector: effectively matching skills to opportunities. Conceived by over team, our goal is to transform the workforce landscape.
         </h2>
       </div>
     </div>

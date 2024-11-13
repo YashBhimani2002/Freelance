@@ -34,7 +34,7 @@
 //               Hire world-class talent for your projects
 //             </h2>
 //             <p class="text-lg text-grey-700 font-medium mb-8">
-//               Praiki facilitates easy access to professional services in Nigeria
+//               Freelance facilitates easy access to professional services in Nigeria
 //               and other African countries.
 //             </p>
 //             <div class="flex space-x-3">
@@ -56,7 +56,7 @@
 //               <p
 //                 className={`${inter500.className} sm:mb-[100px] mb-[30px] md:text-greytext text-hero_clr text- font-medium sm:leading-7 leading-5 md:text-basic lg:text-lg me-10 lg:me-20 w-[100%]`}
 //               >
-//                 Praiki facilitates easy access to professional services in
+//                 Freelance facilitates easy access to professional services in
 //                 Nigeria and other African countries.
 //               </p>
 //               <div className="sm:text-lg text-sm font-semibold flex items-start justify-center pr-0 md:pr-[100px]">
@@ -101,7 +101,7 @@
 //             Hire world-class talent for your projects
 //           </h2>
 //           <p class="text-lg text-grey-700 font-medium mb-8">
-//             Praiki facilitates easy access to professional services in Nigeria
+//             Freelance facilitates easy access to professional services in Nigeria
 //             and other African countries.
 //           </p>
 //           <div class="flex space-x-3">
@@ -186,7 +186,7 @@
 //               <p
 //                 className={`${inter500.className} sm:mb-[100px] mb-[30px] md:text-greytext text-hero_clr text- font-medium sm:leading-7 leading-5 md:text-basic lg:text-lg me-10 lg:me-20 w-[100%]`}
 //               >
-//                 Praiki facilitates easy access to professional services in
+//                 Freelance facilitates easy access to professional services in
 //                 Nigeria and other African countries.
 //               </p>
 //               <div className="sm:text-lg text-sm font-semibold flex items-start justify-center pr-0 md:pr-[100px]">
@@ -267,7 +267,7 @@
 //                 className="sm:mb-[100px] mb-[30px] md:text-greytext text-hero_clr text- font-medium sm:leading-7 leading-5 md:text-basic lg:text-lg me-10 lg:me-20 w-[100%] scroll-jumping-text"
 //                 style={{ transform: `translateY(${translateY}px)` }}
 //               >
-//                 Praiki facilitates easy access to professional services in
+//                 Freelance facilitates easy access to professional services in
 //                 Nigeria and other African countries.
 //               </p>
 //               <div className="sm:text-lg text-sm font-semibold flex items-start justify-center pr-0 md:pr-[100px]">
@@ -368,7 +368,7 @@
 //                 Hire world-class talent for your projects
 //               </h2>
 //               <p className="sm:mb-[100px] mb-[30px] md:text-greytext text-hero_clr text- font-medium sm:leading-7 leading-5 md:text-basic lg:text-lg me-10 lg:me-20 w-[100%]">
-//                 Praiki facilitates easy access to professional services in
+//                 Freelance facilitates easy access to professional services in
 //                 Nigeria and other African countries.
 //               </p>
 //               <div className="sm:text-lg text-sm font-semibold flex items-start justify-center pr-0 md:pr-[100px]">
@@ -411,7 +411,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ".././style1.css";
 import { Inter } from "next/font/google";
 import { useRouter } from "next/navigation";
-import banerImage1 from "../../../components/assets/Footer/joyful-dark-skinned-smiling-female-has-dark-hair-curly-hair-points-aside-with-thumb-1-66e2dfba1068e 1.png";
+import banerImage1 from "../../../public/findJob.jpg";
 import banerImage2 from "../../../components/assets/Footer/banner2.png";
 import banerImage3 from "../../../components/assets/Footer/banner3.png";
 import helpoverlay from "../../../public/helpoverlay.png";
@@ -430,7 +430,7 @@ export default function Hero() {
     router.push(`/signup?userType=${encodeURIComponent('"Client"')}`);
   };
   const handleFindWork = () => {
-    router.push("/praiki-find-work");
+    router.push("/freelance-find-work");
   };
 
   // Effect to track scroll and update the scroll position
@@ -470,7 +470,7 @@ export default function Hero() {
                   transform: `translateY(${scrollPosition * -0.3}px)`,
                 }}
               >
-                Praiki facilitates easy access to professional services in
+                Freelance facilitates easy access to professional services in
                 Nigeria and other African countries.
               </p>
               <div className="sm:text-lg text-sm font-semibold flex items-start md:justify-center pr-0 md:pr-[100px]">

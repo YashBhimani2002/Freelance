@@ -40,7 +40,7 @@ export default function Helpcenter() {
             transform: `translateY(${scrollPosition * -0.3}px)`,
           }}
         >
-          Connecting professionals <br /> to businesses across Africa
+          Connecting professionals <br /> to businesses across India
         </h1>
         <h1
           className={`${mulish800.className} md:hidden block  sm:mb-[25px] mb-[10px] text-box_clr lg:text-[58px] sm:text-[40px] text-[23px]  text-center`}
@@ -48,7 +48,7 @@ export default function Helpcenter() {
             transform: `translateY(${scrollPosition * -0.3}px)`,
           }}
        >
-          Connecting professionals to businesses across Africa
+          Connecting professionals to businesses across India
         </h1>
         <h2
           className={`${mulish400.className} md:block hidden text-post_clr tracking-wide lg:text-[18px] sm:text-[22px] lg:leading-[32px] text-center`}
@@ -56,7 +56,7 @@ export default function Helpcenter() {
             transform: `translateY(${scrollPosition * -0.3}px)`,
           }}
         >
-          Praiki is a remote services marketplace designed to connect businesses
+          Freelance is a remote services marketplace designed to connect businesses
           of all sizes <br />
           to independent professionals,freelancers, and agencies for all their
           hiring needs. <br />
@@ -67,7 +67,7 @@ export default function Helpcenter() {
           style={{
             transform: `translateY(${scrollPosition * -0.3}px)`,
           }}>
-          Praiki is a remote services marketplace designed to connect businesses
+          Freelance is a remote services marketplace designed to connect businesses
           of all sizes to independent professionals, freelancers, and agencies
           for all their hiring needs.
         </h2>

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import Logo from "../../public/logo.png";
+import Logo from "../../public/Pink and Purple Modern Gradient Arts and Crafts Logo (1) (1).png";
 import Logo2 from "../../public/image 5.png";
 
 import getStartedImg from "../../public/AuthImages/get-start.jpg";
@@ -630,7 +630,7 @@ function Signup() {
         //     <button onClick={() => setShowPopup(false)}>Close</button>
         //   </div>
         // </div>
-        <div className="fixed bg-[#00000080] top-0 bottom-0 left-0 right-0 z-1 flex justify-center">
+        <div className="fixed bg-[#F7F7F7] top-0 bottom-0 left-0 right-0 z-1 flex justify-center">
           <div
             className="flex flex-row bg-white rounded-[32px] my-auto mx-[10px] md:my-auto md:mx-auto w-[20rem] h-[20rem] md:w-[25rem] md:h-[460px]"
             ref={popupRef}
@@ -653,25 +653,21 @@ function Signup() {
                 <p
                   className={`text-[24px] md:text-[30px] leading-[52.8px] ${mulish700.className}`}
                 >
-                  Confirm your email
+                  Register sucessfully
                 </p>
               </div>
               <div>
                 <p
                   className={`text-[12px] md:text-[13px] ${inter400.className} text-center px-7 md:px-12`}
                 >
-                  Please go to your mailbox and confirm
+                    Welcome to freelance platform
                 </p>
                 <p
                   className={`text-[12px] md:text-[13px] ${inter400.className} text-center px-5 md:px-0`}
                 >
-                  your email ({storeEmail}). Be sure
+                    your email ({storeEmail}) is registerd.
                 </p>
-                <p
-                  className={`text-[12px] md:text-[13px] ${inter400.className} text-center px-5 md:px-3`}
-                >
-                  to check the spam folder
-                </p>
+            
                 {/* <p
                   className={`text-[12px] md:text-[14px] ${inter400.className} text-center px-5 md:px-3`}
                 >
@@ -689,29 +685,16 @@ function Signup() {
       {countryLoading ? (
         <Loader />
       ) : (
-        <section className="bg-white md:h-[100vh] overflow-hidden">
-          <div className="flex flex-col md:flex-row bg-[#f1f3f6] h-[100vh] overflow-auto">
-            <div className="hidden lg:block w-full lg:w-[42%] h-[100vh] relative">
-              <div className="absolute left-5 top-5 w-[8rem]">
-                <a href="/">
-                  <Image src={Logo} alt="praiki_logo" />
-                </a>
-              </div>
-              <div className="w-full h-full">
-                <Image
-                  src={getStartedImg}
-                  className="w-full h-full object-cover object-top"
-                  alt="Get Started"
-                />
-              </div>
-            </div>
-            <div className="flex justify-center items-start w-[100%] lg:w-[58%] m-auto h-full mt-22 sm:mt-0 py-8 md:py-30 lg:py-14 overflow-y-auto px-6 sm:px-20 lg:px-0 scrollbar-custom">
-              <div className="lg:relative w-full lg:w-[80%] xl:w-[70%]">
-                <div className="absolute left-5 top-5 w-[8rem] block lg:hidden">
+        <section className="bg-[#00000080] md:h-[100vh] overflow-hidden">
+          <div className="flex flex-col md:flex-row bg-[#F7F7F7] h-[100vh] overflow-auto">
+          <div className="absolute left-5 top-5 w-[8rem] block">
                   <a href="/">
-                    <Image src={Logo2} alt="praiki_logo" width={"85%"} />
+                    <Image src={Logo} alt="Freelance_logo" width={"85%"} />
                   </a>
                 </div>
+            <div className="flex justify-center items-start w-[100%] m-auto h-full mt-22 sm:mt-0 py-8 md:py-30 lg:py-14 overflow-y-auto px-6 sm:px-20 lg:px-0 scrollbar-custom">
+              <div className="lg:relative w-full lg:w-[80%] xl:w-[70%]">
+               
                 <h1
                   className={`text-[25px] md:text-[34px] lg:text-[45px] text-center mb-6 text-box_clr ${mulish700.className}`}
                 >
@@ -723,10 +706,10 @@ function Signup() {
                     <div className="flex justify-between gap-2 sm:gap-8 custome-height">
                       <label
                         htmlFor="flexRadioDefault1"
-                        className={`flex items-center bg-white w-full pl-3 sm:pl-5 text-sm ${inter.className} rounded-[15px] cursor-pointer w-full h-[40px]`}
+                        className={`flex items-center border-[1px]  border-[#b0b5b8] bg-white w-full pl-3 sm:pl-5 text-sm ${inter.className} rounded-[15px] cursor-pointer w-full h-[40px]`}
                       >
                         <input
-                          className="mr-2"
+                          className="mr-2 "
                           type="radio"
                           name="user_type"
                           id="flexRadioDefault1"
@@ -741,7 +724,7 @@ function Signup() {
 
                       <label
                         htmlFor="flexRadioDefault2"
-                        className={`flex items-center pl-3 sm:pl-5 bg-white w-full text-sm ${inter.className} rounded-[15px] cursor-pointer custome-margin h-[40px]`}
+                        className={`flex items-center pl-3 border-[1px]  border-[#b0b5b8] sm:pl-5 bg-white w-full text-sm ${inter.className} rounded-[15px] cursor-pointer custome-margin h-[40px]`}
                       >
                         <input
                           className="mr-2"
@@ -764,72 +747,6 @@ function Signup() {
                         </p>
                       )}
                     </div>
-                  </div>
-
-                  <div className="flex justify-center items-center flex-row">
-                    <div className="text-xl pr-[20px]">Sign up with:</div>
-                    <div
-                      className={`${inter500.className} ${
-                        selectedUserType == "" && "pointer-events-none"
-                      } mobile_view  flex flex-row justify-start md:flex-row xl:items-center gap-2 xl:gap-3 my-6 md:mr-10 lg:mr-0`}
-                    >
-                      {/* <div className="bg-borderBlue w-[30%] h-[5%] absolute"></div> */}
-                      <GoogleAuth
-                        setGoogleSignUpErrorMessage={
-                          setGoogleSignUpErrorMessage
-                        }
-                        setGoogleSignUpSuccessMessage={
-                          setGoogleSignUpSuccessMessage
-                        }
-                        storeId={storeId} // Pass the storeId as a prop
-                        disabled={selectedUserType} // Disable when no user type is selected
-                      />
-
-                      <FacebookLogin
-                        appId={process.env.NEXT_PUBLIC_FACEBOOK_APP_ID}
-                        autoLoad={false}
-                        callback={responseFacebook}
-                        cssClass="bg-[#1877f2] h-[38.4px] flex items-center transition-all duration-200 ease-in-out border border-[#fff] p-2 lg:p-1 xl:p-2 tracking-wide rounded text-white gap-1 xl:gap-3 text-[11px] md:max-lg:text-base xl:text-base w-[100%] xl:w-auto flex justify-center xl:justify-start hover:border-[#fff]"
-                        icon={facebookIcon}
-                        textButton=""
-                        disabled={selectedUserType} // Disable when no user type is selected
-                      />
-                      <LinkedIn
-                        clientId={process.env.NEXT_PUBLIC_LINKEDIN_APP_ID}
-                        className="btn btn-linked"
-                        redirectUri={
-                          process.env.NEXT_PUBLIC_LINKEDIN_CALLBACK_URI
-                        }
-                        scope="email openid profile"
-                        onSuccess={(code) => {
-                          linkedInSuccess(code);
-                        }}
-                        onError={(error) => {
-                          linkedInFailed(error);
-                        }}
-                        disabled={selectedUserType} // Disable when no user type is selected
-                      >
-                        {({ linkedInLogin }) => (
-                          <div
-                            className="bg-[#0274b3] h-[38.4px] cursor-pointer flex tracking-wide transition-all duration-200 ease-in-out items-center border border-[#fff] p-2 lg:p-1 xl:p-2 rounded text-white gap-1 xl:gap-3 text-[11px] md:max-lg:text-base xl:text-base  justify-center xl:justify-start hover:border-[#fff]"
-                            onClick={linkedInLogin}
-                          >
-                            <span className="">{linkdinIcon}</span>
-                          </div>
-                        )}
-                      </LinkedIn>
-                    </div>
-                  </div>
-                  {googleSignUpErrorMessage && (
-                    <div className="error-message text-red flex justify-center font-bold">
-                      {googleSignUpErrorMessage}
-                    </div>
-                  )}
-
-                  <div className="flex w-full justify-center items-center">
-                    <div className="border-b-[1px] border-[#b0b5b8] w-[15%]"></div>
-                    <div className="md:w-[72px] text-center mx-3">Or Email</div>
-                    <div className="border-b-[1px] border-[#b0b5b8] w-[15%]"></div>
                   </div>
 
                   <input
@@ -1032,7 +949,7 @@ function Signup() {
                           htmlFor="subscription"
                         >
                           Send occasional email to help me get the most out of
-                          Praiki.
+                          Freelance.
                         </label>
                       </div>
                       <div>
@@ -1053,9 +970,9 @@ function Signup() {
                             className="form-check-label custome-text"
                             htmlFor="termsconditions"
                           >
-                            I understand and agree to the Praiki{" "}
+                            I understand and agree to the Freelance{" "}
                             <a
-                              href="/policy#scrollHere2"
+                              href="#"
                               className="hoverLink"
                               target="_blank"
                               rel="noopener noreferrer"
@@ -1064,7 +981,7 @@ function Signup() {
                             </a>{" "}
                             and{" "}
                             <a
-                              href="/policy#scrollHere1"
+                              href="#"
                               className="hoverLink"
                               target="_blank"
                               rel="noopener noreferrer"

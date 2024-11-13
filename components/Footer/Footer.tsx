@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import praikiLogo from "@/public/LandingPageImages/praikilogo.png";
+import praikiLogo from "@/public/praiki.svg";
 import "./Footer.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -58,13 +58,13 @@ const Footer = () => {
                   href="/about-us"
                   className={`${mulish400.className} block xl:mb-[15px] lg:mb-[12px] sm:mb-[5px]`}
                 >
-                  About Praiki
+                  About Freelance
                 </FooterLink>
                 <FooterLink
                   href="#"
                   className={`${mulish400.className} block xl:mb-[15px] lg:mb-[12px] sm:mb-[5px]`}
                 >
-                  How Praiki Works
+                  How Freelance Works
                 </FooterLink>
                 {/* <FooterLink
                   href="/payment-policy"
@@ -78,12 +78,6 @@ const Footer = () => {
                 >
                   Services
                 </FooterLink>
-                {/* <FooterLink
-                  href="https://praiki.com/blog"
-                  className={`${mulish400.className} xl:mb-[15px] lg:mb-[12px] sm:mb-[5px]`}
-                >
-                  Blog
-                </FooterLink> */}
               </div>
             </div>
 
@@ -119,7 +113,7 @@ const Footer = () => {
               </Heading>
               <div className="hidden md:flex">
                 <FooterLink
-                  href="https://www.facebook.com/praikitech"
+                  href="#"
                   target="_blank"
                   className="lg:mr-[13px] lg:mb-[10px] md:mr-[2px]"
                 >
@@ -137,7 +131,7 @@ const Footer = () => {
                   </svg>
                 </FooterLink>
                 <FooterLink
-                  href="https://www.instagram.com/praikitech"
+                  href="#"
                   target="_blank"
                   className="lg:mr-[13px] lg:mb-[10px] md:mr-[2px]"
                 >
@@ -155,7 +149,7 @@ const Footer = () => {
                   </svg>
                 </FooterLink>
                 <FooterLink
-                  href="https://www.linkedin.com/company/praiki/about/?viewAsMember=true"
+                  href="#"
                   target="_blank"
                   className="lg:mr-[13px] lg:mb-[10px] md:mr-[2px]"
                 >
@@ -173,7 +167,7 @@ const Footer = () => {
                   </svg>
                 </FooterLink>
                 <FooterLink
-                  href="https://twitter.com/praikitechng"
+                  href="#"
                   target="_blank"
                   className="lg:mr-[13px] lg:mb-[10px] md:mr-[2px]"
                 >
@@ -202,7 +196,7 @@ const Footer = () => {
                 <p
                   className={`${inter400.className} text-[14px] text-radiolabel sm:mb-[10px] pt-[15px] md:pt-[0px]`}
                 >
-                  Keep up to date with content, updates, and offers from Praiki
+                  Keep up to date with content, updates, and offers from Freelance
                 </p>
               </div>
               <div className="mb-4">
@@ -247,8 +241,9 @@ const Footer = () => {
                       src={praikiLogo}
                       alt="logo"
                       title=""
-                      width={120}
-                      height={60}
+                      // width={180}
+                      // height={60}
+                      className="w-[13rem] h-[13rem] object-cover"
                     />
                   </a>
                 </div>
@@ -258,7 +253,7 @@ const Footer = () => {
                     className={`${mulish600.className} lg:ml-[15px] leading-6 tracking-wide `}
                   >
                     Connecting professionals to <br />
-                    businesses across Africa
+                    businesses across India
                   </div>
                 </div>
               </div>
@@ -268,7 +263,7 @@ const Footer = () => {
                     className={`${mulish400.className} space-x-4 md:mt-[10px] lg:text-[15px] md:text-[13px] text-box_clr cursor-pointer  justify-center md:justify-end  hidden md:flex`}
                   >
                     <FooterLink
-                      href="/policy#scrollHere1"
+                      href="#"
                       onClick={() => handleScrollTo("scrollHere1")}
                     >
                       {" "}
@@ -278,7 +273,7 @@ const Footer = () => {
                       </div>
                     </FooterLink>
                     <FooterLink
-                      href="/policy#scrollHere2"
+                      href="#"
                       onClick={() => handleScrollTo("scrollHere2")}
                     >
                       {" "}
@@ -288,7 +283,7 @@ const Footer = () => {
                       </div>
                     </FooterLink>
                     <FooterLink
-                      href="/policy#scrollHere3"
+                      href="#"
                       onClick={() => handleScrollTo("scrollHere3")}
                     >
                       {" "}
@@ -302,7 +297,7 @@ const Footer = () => {
                   <div
                     className={`${mulish400.className} text-[13px] text-box_clr font-normal text-left  sm:text-right leading-10`}
                   >
-                    © 2024 praiki - All Rights Reserved
+                    © 2024 Freelance - All Rights Reserved
                   </div>
                 </div>
               </div>

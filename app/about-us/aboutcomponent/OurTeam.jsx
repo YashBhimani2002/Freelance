@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { Mulish } from "next/font/google";
-import team1 from "../../../public/team1.png";
-import team2 from "../../../public/team2.png";
-import team3 from "../../../public/team3.png";
+import team1 from "../../../public/I will be your professional audiobook narrator….jpg";
+import team3 from "../../../public/Pricing plans _ Freepik.jpg";
+import team2 from "../../../public/CUTE BOY.jpg";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -68,13 +68,13 @@ export default function Team() {
                   className={`${mulish700.className} lg:text-[28px] text-[20px] text-[#434343] font-mulish`}
                 >
                   {/* Replace with dynamic content */}
-                  {["Ronke Bankole", "Tobi Lawson", "Tunrayo Fabunmi"][index]}
+                  {["Yash", "Harsh", "Sandeep"][index]}
                 </h3>
                 <span
                   className={`${mulish400.className} text-[19px] text-[#7E8082]`}
                 >
                   {/* Replace with dynamic content */}
-                  {["CEO", "COO", "CTO"][index]}
+                  {["Developer", "Developer", "Developer"][index]}
                 </span>
               </div>
             </div>

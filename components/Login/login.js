@@ -20,8 +20,8 @@ import { setDashboardStatus } from "../../lib/features/todos/professionalClientS
 import { useRouter } from "next/navigation";
 import { Inter } from "next/font/google";
 import { Mulish } from "next/font/google";
-import praikiLogo from "../../public/praiki.svg";
-import loginImage from "../../public/login.jpg";
+import praikiLogo from "../../public/Pink and Purple Modern Gradient Arts and Crafts Logo (1) (1).png";
+import loginImage from "../../public/download.jpg";
 import GoogleAuth from "../google/GoogleAuth";
 import { LinkedIn } from "react-linkedin-login-oauth2";
 import { Widgets } from "@mui/icons-material";
@@ -474,20 +474,12 @@ function Login() {
   return (
     <>
       <div className="bg-white h-[100vh] overflow-hidden lg:overflow-x-hidden">
-        <div className="lg:flex md:flex-row w-screen h-[100vh] bg-[#F1F3F6] overflow-y-scroll scrollbar-custom">
+        <div className="lg:flex md:flex-row w-screen h-[100vh] bg-[#F7F7F7] overflow-y-scroll scrollbar-custom">
           <div className="w-auto h-[80px] lg:h-[100vh] lg:w-[42%] relative overflow-hidden">
             <div className="w-32 absolute top-3 left-2">
               <a href="/">
                 <Image
                   src={praikiLogo}
-                  alt="logo"
-                  title=""
-                  width={140}
-                  height={60}
-                  className="hidden lg:block"
-                />
-                <Image
-                  src={Logo2}
                   alt="logo"
                   title=""
                   width={140}
@@ -654,7 +646,7 @@ function Login() {
                 <h1
                   className={` ${mulish.className} text-[#434343] text-[25px] md:text-[34px] lg:text-[45px] text-center lg:text-left`}
                 >
-                  Login to Praiki
+                  Login
                 </h1>
                 <div
                   className={` ${inter.className} text-sm md:text-lg font-medium text-center lg:text-left my-2 lg:my-4`}
@@ -669,56 +661,7 @@ function Login() {
                     </Link>
                   </span>
                 </div>
-                <div className="flex justify-center lg:justify-start items-center pt-5 lg:pt-0">
-                  <div className="text-lg md:text-xl pr-[15px] md:pr-[20px]">
-                    Sign in with:
-                  </div>
-                  <div
-                    className={`${inter.className} w-auto flex justify-center lg:justify-start flex-row items-center gap-2 xl:gap-3 lg:my-6 pt-0 lg:pt-0`}
-                  >
-                    <GoogleAuth
-                      setGoogleErrorMessage={setGoogleErrorMessage}
-                      setGoogleSuccessMessage={setGoogleSuccessMessage}
-                    />
-                    <FacebookLogin
-                      appId={process.env.NEXT_PUBLIC_FACEBOOK_APP_ID}
-                      autoLoad={false}
-                      callback={responseFacebook}
-                      cssClass="bg-[#1877f2] h-[40.4px] w-max flex items-center transition-all duration-200 ease-in-out border border-[#fff] p-2 lg:p-2 tracking-wide rounded text-white gap-1 lg:gap-3 text-[11px] md:max-lg:text-base xl:text-base lg:w-auto flex justify-center lg:justify-start hover:border-[#fff]"
-                      textButton=""
-                      // textButton={
-                      //   <span className="hidden lg:block shrink-0 text-sm">
-                      //     Sign in with Facebook
-                      //   </span>
-                      // }
-                      icon={facebookIcon}
-                    />
-                    <LinkedIn
-                      clientId={process.env.NEXT_PUBLIC_LINKEDIN_APP_ID}
-                      className="btn btn-linked"
-                      redirectUri={`https://praiki.com/linkedin/callback`}
-                      scope="email openid profile"
-                      onSuccess={(code) => {
-                        linkedInSuccess(code);
-                      }}
-                      onError={(error) => {
-                        linkedInFailed(error);
-                      }}
-                    >
-                      {({ linkedInLogin }) => (
-                        <div
-                          className="bg-[#0274b3] w-fit h-[40.4px] cursor-pointer flex tracking-wide transition-all duration-200 ease-in-out items-center border border-[#fff] p-2 lg:p-2 rounded text-white gap-1 lg:gap-3 text-[11px] md:max-lg:text-base xl:text-base  justify-center lg:justify-start hover:border-[#fff]"
-                          onClick={linkedInLogin}
-                        >
-                          <span className="">{linkdinIcon}</span>
-                          {/* <p className="hidden lg:flex items-center text-sm">
-                            Sign in with Linkedin
-                          </p> */}
-                        </div>
-                      )}
-                    </LinkedIn>
-                  </div>
-                </div>
+
                 <div className="mt-4 mr-0 lg:mr-[20%] xl:mr-[20%]">
                   <form method="post" autoComplete="off">
                     <div

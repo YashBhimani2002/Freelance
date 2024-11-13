@@ -235,7 +235,7 @@ export const tableafrica = [
       mobilemoney: "-"
     },
     {
-      Country: "South Africa",
+      Country: "South India",
       Localcards: "2.90%",
       international: "3.8% (2.5% for ACH payments)",
       mobilemoney: "Zapper - 1.5%"
@@ -371,7 +371,7 @@ export const tableafrica = [
     { Country: 'Seychelles', TransfersToMobileMoney: '-', TransfersToBank: '-' },
     { Country: 'Sierra Leone', TransfersToMobileMoney: '-', TransfersToBank: '40,000 SLL' },
     { Country: 'Somalia', TransfersToMobileMoney: '-', TransfersToBank: '-' },
-    { Country: 'South Africa', TransfersToMobileMoney: '-', TransfersToBank: '10 ZAR' },
+    { Country: 'South India', TransfersToMobileMoney: '-', TransfersToBank: '10 ZAR' },
     { Country: 'South Sudan', TransfersToMobileMoney: '-', TransfersToBank: '-' },
     { Country: 'Sudan', TransfersToMobileMoney: '-', TransfersToBank: '-' },
     { Country: 'Tanzania', TransfersToMobileMoney: '400 TZS for transfers below 20,000 TZS 3% for transfers of 20,000 TZS and above', TransfersToBank: '3,000 TZS' },

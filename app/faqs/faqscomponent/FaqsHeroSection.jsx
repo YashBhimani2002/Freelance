@@ -25,7 +25,7 @@ export default function FaqsHeroSection() {
         <h2
           className={`${mulish400.className}   text-post_clr lg:text-[27px] sm:text-[22px] text-[18px] lg:leading-[32px] text-center`}
         >
-          Get quick answers to your questions about Praiki
+          Get quick answers to your questions about Freelance
         </h2>
       </div>
     </div>

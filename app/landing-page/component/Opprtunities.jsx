@@ -61,7 +61,7 @@
 //             className={`${inter400.className} text-greytext text-base sm:text-lg font-normal my-3 xl:me-10`}
 //           >
 //             Meet clients from around the world and take your career to new
-//             heights. Work wherever and whenever suits you. With Praiki, you
+//             heights. Work wherever and whenever suits you. With Freelance, you
 //             remain in control.
 //           </p>
 //           <div className="md:my-10 mt-[20px] sm:mb-[40px] mb-[20px]">
@@ -81,7 +81,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Profe from "@/public/LandingPageImages/full-length-portrait-young-smiling-african-man 1 (1).png";
+import Profe from "@/public/Man working with laptop.jpg";
 import Profebg from "@/public/LandingPageImages/Rectangle 24376.png";
 import Image from "next/image";
 import { Inter } from "next/font/google";
@@ -168,11 +168,11 @@ export default function Opprtunities() {
           </div>
 
           <Image
-            className="w-full sm:mt-[-29%]  ml-[40px] max-w-[75%] md:max-w-[83%]"
+            className="w-full sm:mt-[0%]  ml-[40px] max-w-[75%] md:max-w-[83%]"
             src={Profe}
             alt="professional_image"
           />
-          <div className=" hidden lg:block  w-[57%] rounded-[24px] m-[-15%] bg-custom-orange absolute p-[15px]">
+          <div className=" hidden lg:block  w-[57%] rounded-[24px] m-[-15%] mt-0 bg-custom-orange absolute p-[15px]">
             <h1 className={`${inter600.className} text-white text-[24px]`}>
               Flexibility and Control
             </h1>
@@ -204,7 +204,7 @@ export default function Opprtunities() {
             className={`${inter400.className} text-greytext text-base sm:text-lg font-normal my-3 xl:me-10`}
           >
             Meet clients from around the world and take your career to new
-            heights. Work wherever and whenever suits you. With Praiki, you
+            heights. Work wherever and whenever suits you. With Freelance, you
             remain in control.
           </p>
           <div className="md:my-4 mt-[20px] sm:mb-[40px] mb-[20px]">

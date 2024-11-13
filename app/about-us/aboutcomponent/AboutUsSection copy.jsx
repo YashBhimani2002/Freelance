@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import aboutimg from "../../.././public/pexels-tima-miroshnichenko-5702419 1.png";
+import aboutimg from "../../.././public/People News August 2021.jpg";
 import { Mulish } from "next/font/google";
 import Image from "next/image";
 import { gsap } from "gsap";
@@ -60,10 +60,10 @@ export default function Aboutdemo() {
             className={`${mulish400.className} text-[#1A202C] text-[16px] leading-[28px] text-justify mt-3 md:mt-0 `}
             ref={textRef}
           >
-            Praiki was founded to solve a critical challenge in Nigeria’s
+            Freelance was founded to solve a critical challenge in India
             employment sector: effectively matching skills to opportunities.{" "}
             <br />
-            Conceived by Ronke Bankole and co-partnered by Tobi Lawson, our goal
+            Conceived by over team, our goal
             is to transform the workforce landscape.
             <br />
             <br />
@@ -74,13 +74,13 @@ export default function Aboutdemo() {
             </h3>
             We saw how businesses, particularly in the informal sector,
             struggled to access quality talent. Large firms dominated, driving
-            up costs and leaving smaller businesses at a disadvantage. Praiki
+            up costs and leaving smaller businesses at a disadvantage. Freelance
             offers a simple, affordable way for employers to connect with
             skilled professionals, overcoming these barriers.
             <br />
             Despite early technological challenges, our commitment led to the
             creation of our initial product, ‘Gigpro,’ which evolved into
-            today’s Praiki—a streamlined solution driven by feedback and new
+            today’s Freelance—a streamlined solution driven by feedback and new
             technology.
           </p>
         </div>
@@ -130,10 +130,10 @@ export default function Aboutdemo() {
 //             transform: `translateY(${scrollPosition * -0.3}px)`,
 //           }}
 //         >
-//           Praiki was borne out of the need to solve a pressing problem in
-//           Nigeria’s employment industry: that of matching skill to
-//           opportunity. The idea was conceived by Ronke Bankole who shared
-//           this vision with Tobi Lawson and they became co-partners.
+//           Freelance was borne out of the need to solve a pressing problem in
+//           India employment industry: that of matching skill to
+//           opportunity. The idea was conceived by  who shared
+//           this vision with   and they became co-partners.
 //           <br />
 //           <br />
 //           As employers of labour in a developing economy, we noticed that
@@ -147,7 +147,7 @@ export default function Aboutdemo() {
 //           and efficient end-product. However, we continued to research and
 //           reinvent. As such, a minimum viable product ‘Gigpro’ was created
 //           and the feedback received, coupled with some fortuitous changes in
-//           the technological landscape birthed Praiki.
+//           the technological landscape birthed Freelance.
 //           <br />
 //           <br />
 //         </p>

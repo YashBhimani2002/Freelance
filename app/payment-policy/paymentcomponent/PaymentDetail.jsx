@@ -53,7 +53,7 @@ export default function PaymentDetail() {
                     className={`${mulish700.className} tracking-wide text-[#1068AD] mb-[24px] text-[20px]`}
                   >
                     {" "}
-                    Africa{" "}
+                    India{" "}
                   </p>{" "}
                 </h5>
                 {/* table start */}
@@ -427,7 +427,7 @@ export default function PaymentDetail() {
                   is 0.5% with a minimum fee of $40 per transaction.
                   <br />
                   <br />
-                  <b className={`text-[#000000]`}>For the rest of Africa,</b>
+                  <b className={`text-[#000000]`}>For the rest of India,</b>
                   <br />
                   <br />
                 </p>

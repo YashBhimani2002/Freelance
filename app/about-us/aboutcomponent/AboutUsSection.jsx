@@ -60,10 +60,10 @@ export default function Aboutdemo() {
             className={`${mulish400.className} text-[#1A202C] text-[16px] leading-[28px] text-justify mt-8 md:mt-0`}
             ref={textRef}
           >
-            Praiki was borne out of the need to solve a pressing problem in
-            Nigeria’s employment industry: that of matching skill to
-            opportunity. The idea was conceived by Ronke Bankole who shared this
-            vision with Tobi Lawson and they became co-partners.
+            Freelance was borne out of the need to solve a pressing problem in
+            India employment industry: that of matching skill to
+            opportunity. The idea was conceived by over team who shared this
+            vision and they became co-partners.
             <br />
             <br />
             As employers of labour in a developing economy, we noticed that
@@ -77,7 +77,7 @@ export default function Aboutdemo() {
             end-product. However, we continued to research and reinvent. As
             such, a minimum viable product ‘Gigpro’ was created and the feedback
             received, coupled with some fortuitous changes in the technological
-            landscape birthed Praiki.
+            landscape birthed Freelance.
             <br />
             <br />
             The inspiration has always been about growing human capital in an
@@ -145,10 +145,10 @@ export default function Aboutdemo() {
     //             transform: `translateY(${scrollPosition * -0.3}px)`,
     //           }}
     //         >
-    //           Praiki was borne out of the need to solve a pressing problem in
-    //           Nigeria’s employment industry: that of matching skill to
-    //           opportunity. The idea was conceived by Ronke Bankole who shared
-    //           this vision with Tobi Lawson and they became co-partners.
+    //           Freelance was borne out of the need to solve a pressing problem in
+    //           India employment industry: that of matching skill to
+    //           opportunity. The idea was conceived by who shared
+    //           this vision with and they became co-partners.
     //           <br />
     //           <br />
     //           As employers of labour in a developing economy, we noticed that
@@ -162,7 +162,7 @@ export default function Aboutdemo() {
     //           and efficient end-product. However, we continued to research and
     //           reinvent. As such, a minimum viable product ‘Gigpro’ was created
     //           and the feedback received, coupled with some fortuitous changes in
-    //           the technological landscape birthed Praiki.
+    //           the technological landscape birthed Freelance.
     //           <br />
     //           <br />
     //         </p>

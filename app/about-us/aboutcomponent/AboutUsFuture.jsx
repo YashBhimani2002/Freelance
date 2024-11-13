@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Mulish } from "next/font/google";
-import vision from "../../../public/future.png";
+import vision from "../../../public/5 Justified Reasons For Hiring a Digital Marketing Agency.jpg";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -63,12 +63,12 @@ export default function OurVision() {
               <h3
                 className={`${mulish700.className} lg:text-[58px] md:text-[40px] text-[30px] lg:mb-[30px] mb-[20px] text-[#1A202C] !font-inter`}
               >
-               The Praiki Solution
+               The Freelance Solution
               </h3>
               <p
                 className={`${mulish500.className} lg:text-[20px] text-[16px] lg:leading-[40px] leading-[21px] md:mb-[50px] sm:mb-[30px] text-[#4A5568] !font-inter `}
               >
-                The COVID-19 pandemic underscored the need for flexibility in work. Praiki is an integrated marketplace that simplifies the connection between businesses and professionals, reducing costs and enabling growth.
+                The COVID-19 pandemic underscored the need for flexibility in work. Freelance is an integrated marketplace that simplifies the connection between businesses and professionals, reducing costs and enabling growth.
               </p>
             </div>
             <div ref={missionRef} className="mt-8 md:mt-0">
@@ -80,7 +80,7 @@ export default function OurVision() {
               <p
                 className={`${mulish500.className} lg:text-[20px] text-[16px] lg:leading-[40px] leading-[21px] md:mb-[0px] mb-[30px] text-[#4C4C4D] !font-inter`}
               >
-               We empower individuals and businesses to succeed on their terms. With Praiki, take control of your career or find the talent you need—together, we help you "own your future."
+               We empower individuals and businesses to succeed on their terms. With Freelance, take control of your career or find the talent you need—together, we help you "own your future."
               </p>
             </div>
           </div>

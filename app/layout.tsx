@@ -111,7 +111,7 @@ export default function RootLayout({
     setIssignup3(currentPath.startsWith("/company-profile/"));
     setIsLinkedInCallback(currentPath === "/linkedin/callback");
     setIsContact(currentPath.startsWith("/contact-us"));
-    setIsouterfindwork(currentPath.startsWith("/praiki-find-work"));
+    setIsouterfindwork(currentPath.startsWith("/freelance-find-work"));
     setIsAbout(currentPath.startsWith("/about-us"));
     setIsPayment(currentPath.startsWith("/payment-policy"));
     setIsPolicy(currentPath.startsWith("/policy"));

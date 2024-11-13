@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import praikilogo from "@/public/LandingPageImages/praikilogo.png";
+import praikilogo from "@/public/praiki.svg";
 import menu from "@/public/LandingPageImages/menu.png";
 import { useState } from "react";
 import { Inter } from "next/font/google";
@@ -35,19 +35,11 @@ export default function Header1() {
           <a href="/">
             <Image
               onClick={handlePraikiLogoClick}
-              className="w-full object-cover min-w-[107px] pt-[3px]"
+              className="object-cover  w-[10rem] h-[4rem]"
               src={praikilogo}
               alt="praiki_logo"
             />
           </a>
-          <div className="hidden md:block">
-            <Link
-              href="https://praiki.com/blog/"
-              className={inter700.className}
-            >
-              Blog
-            </Link>
-          </div>
         </div>
 
         {/* -----------middle (mobile menu) ---------- */}
@@ -58,20 +50,12 @@ export default function Header1() {
         >
           <ul className="flex flex-col space-y-4 py-4 px-6 text-black">
             <li>
-              <Link
-                href="https://praiki.com/blog/"
-                className={inter700.className}
-              >
-                Blog
-              </Link>
-            </li>
-            <li>
               <Link href={`/signup?userType=${encodedUserType}`} className={inter700.className}>
                 Hire Talent
               </Link>
             </li>
             <li>
-              <Link href="/praiki-find-work" className={inter700.className}>
+              <Link href="/freelance-find-work" className={inter700.className}>
                 Find Work
               </Link>
             </li>
@@ -101,7 +85,7 @@ export default function Header1() {
             </div>
             <div className="find-work shrink-0">
               {" "}
-              <Link href="/praiki-find-work" className={inter700.className}>
+              <Link href="/freelance-find-work" className={inter700.className}>
                 Find Work
               </Link>
             </div>

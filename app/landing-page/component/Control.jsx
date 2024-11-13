@@ -13,7 +13,7 @@
 
 // const revirwData = [
 //   {
-//     Description: "Overall [onboarding on Praiki] was pretty straightforward",
+//     Description: "Overall [onboarding on Freelance] was pretty straightforward",
 //     name: "Michael Aghado",
 //     role: "Graphics Designer",
 //     rating: 5,
@@ -22,7 +22,7 @@
 //   },
 //   {
 //     Description:
-//       "Praiki is a great project that would impact the Nigerian community",
+//       "Freelance is a great project that would impact the Nigerian community",
 //     name: "Nnamdi Chukwudi",
 //     role: "Editor",
 //     rating: 5,
@@ -31,7 +31,7 @@
 //   },
 //   {
 //     Description:
-//       "Praiki is building the digital infrastructure for gig workers",
+//       "Freelance is building the digital infrastructure for gig workers",
 //     name: "Suleiman A.",
 //     rating: 5,
 //     icon: top,
@@ -39,7 +39,7 @@
 //   },
 //   {
 //     Description:
-//       "Praiki transformed how we hire talent. With access to skilled professionals across Africa, our projects are now completed faster and with top-quality results. It’s a game-changer!",
+//       "Freelance transformed how we hire talent. With access to skilled professionals across India, our projects are now completed faster and with top-quality results. It’s a game-changer!",
 //     name: "StrapLabs Inc",
 //     rating: 5,
 //     icon: top,
@@ -47,7 +47,7 @@
 //   },
 //   {
 //     Description:
-//       "As a freelancer, Praiki has been invaluable. The platform connects me with businesses looking for my skills, helping me land jobs I love while working remotely.",
+//       "As a freelancer, Freelance has been invaluable. The platform connects me with businesses looking for my skills, helping me land jobs I love while working remotely.",
 //     name: "Alimi Esan",
 //     role: "Management Consultant",
 //     rating: 5,
@@ -56,7 +56,7 @@
 //   },
 //   {
 //     Description:
-//       "Our business found the perfect mix of talent on Praiki. The flexibility and professionalism of the freelancers are unmatched!",
+//       "Our business found the perfect mix of talent on Freelance. The flexibility and professionalism of the freelancers are unmatched!",
 //     name: "GetFit Club",
 //     rating: 5,
 //     icon: top,
@@ -64,7 +64,7 @@
 //   },
 //   {
 //     Description:
-//       "Praiki makes it easy to find the right professionals for every project. The platform is intuitive, and the results have been outstanding for our company",
+//       "Freelance makes it easy to find the right professionals for every project. The platform is intuitive, and the results have been outstanding for our company",
 //     name: "Ale-Banks Solutions",
 //     rating: 5,
 //     icon: top,
@@ -175,7 +175,7 @@ const inter500 = Inter({ subsets: ["latin"], weight: "500" });
 
 const revirwData = [
   {
-    Description: "Overall [onboarding on Praiki] was pretty straightforward",
+    Description: "Overall [onboarding on Freelance] was pretty straightforward",
     name: "Michael Aghado",
     role: "Graphics Designer",
     rating: 5,
@@ -184,7 +184,7 @@ const revirwData = [
   },
   {
     Description:
-      "Praiki is a great project that would impact the Nigerian community",
+      "Freelance is a great project that would impact the Nigerian community",
     name: "Nnamdi Chukwudi",
     role: "Editor",
     rating: 5,
@@ -193,7 +193,7 @@ const revirwData = [
   },
   {
     Description:
-      "Praiki is building the digital infrastructure for gig workers",
+      "Freelance is building the digital infrastructure for gig workers",
     name: "Suleiman A.",
     rating: 5,
     icon: top,
@@ -201,7 +201,7 @@ const revirwData = [
   },
   {
     Description:
-      "Praiki transformed how we hire talent. With access to skilled professionals across Africa, our projects are now completed faster and with top-quality results. It’s a game-changer!",
+      "Freelance transformed how we hire talent. With access to skilled professionals across India, our projects are now completed faster and with top-quality results. It’s a game-changer!",
     name: "StrapLabs Inc",
     rating: 5,
     icon: top,
@@ -209,7 +209,7 @@ const revirwData = [
   },
   {
     Description:
-      "As a freelancer, Praiki has been invaluable. The platform connects me with businesses looking for my skills, helping me land jobs I love while working remotely.",
+      "As a freelancer, Freelance has been invaluable. The platform connects me with businesses looking for my skills, helping me land jobs I love while working remotely.",
     name: "Alimi Esan",
     role: "Management Consultant",
     rating: 5,
@@ -218,7 +218,7 @@ const revirwData = [
   },
   {
     Description:
-      "Our business found the perfect mix of talent on Praiki. The flexibility and professionalism of the freelancers are unmatched!",
+      "Our business found the perfect mix of talent on Freelance. The flexibility and professionalism of the freelancers are unmatched!",
     name: "GetFit Club",
     rating: 5,
     icon: top,
@@ -226,7 +226,7 @@ const revirwData = [
   },
   {
     Description:
-      "Praiki makes it easy to find the right professionals for every project. The platform is intuitive, and the results have been outstanding for our company",
+      "Freelance makes it easy to find the right professionals for every project. The platform is intuitive, and the results have been outstanding for our company",
     name: "Ale-Banks Solutions",
     rating: 5,
     icon: top,

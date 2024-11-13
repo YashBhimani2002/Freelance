@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Mulish } from "next/font/google";
-import vision from "../../../public/vision.png";
+import vision from "../../../public/7b6fc7ec-0413-4b7c-8739-44be7e335bb9.jpg";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -73,7 +73,7 @@ export default function OurVision() {
               <p
                 className={`${mulish500.className} lg:text-[20px] text-[16px] lg:leading-[40px] leading-[21px] md:mb-[0px] mb-[30px] text-[#4C4C4D] !font-inter`}
               >
-                Praiki is committed to fostering human capital growth by removing barriers that hinder productivity for businesses and professionals alike.
+                Freelance is committed to fostering human capital growth by removing barriers that hinder productivity for businesses and professionals alike.
               </p>
             </div>
           </div>
