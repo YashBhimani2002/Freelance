@@ -1438,7 +1438,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                   color="#0969D4"
                                 />
                               </div>
-                              <div
+                              {/* <div
                                 className={`cursor-pointer group relative flex items-center gap-2.5 rounded-md pl-[1.27rem] pr-4 py-[11px] font-medium text-black duration-300 ease-in-out hover:text-selectedfontcolor ${
                                   pathname === "/identity_verification" &&
                                   `text-selectedfontcolor ${inter700.className}`
@@ -1452,7 +1452,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                 >
                                   <p>Identity Verification</p>
                                 </Tooltip>
-                              </div>
+                              </div> */}
                             </li>
                           </ul>
                         </div>

@@ -88,6 +88,7 @@ const Discoverpage = () => {
       }
     } catch (err) {
       console.error(err);
+      setLoading(false);
       throw err;
     }
   };

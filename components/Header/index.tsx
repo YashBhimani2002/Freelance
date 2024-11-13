@@ -7,7 +7,7 @@ import Image from "next/image";
 import DropdownEmail from "./DropdownEmail";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import praikiLogo from "../../public/praiki.svg";
+import praikiLogo from "../../public/download.svg";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/navigation";
 import { Key, useEffect, useState, useRef } from "react";
@@ -151,9 +151,9 @@ const Header = (props: {
     setSearchResults(null);
   };
   return (
-    <header className="sticky top-0 z-999 shadow-md ring-1 ring-black ring-opacity-50 flex w-full bg-blue_600 py-[8px] drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
-      <div className="items-center gap-2 sm:gap-4 ml-10 hidden lg:flex w-32">
-        <Image src={praikiLogo} alt="alt" width={500} height={500} />
+    <header className="sticky top-0 z-999 shadow-md ring-1 ring-black ring-opacity-50 flex w-full bg-blue_600    py-[8px] drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
+      <div className="items-center gap-2 sm:gap-4 ml-10 hidden lg:flex w-[10rem] h-[4rem]">
+        <Image src={praikiLogo} alt="alt" className="w-full h-full" />
       </div>
       <div className="flex items-center gap-2 sm:gap-4 lg:hidden ml-3 ">
         <button
@@ -203,18 +203,18 @@ const Header = (props: {
         style={{ display: "flex", justifyContent: "right", gap: "20px" }}
       >
         <div className="hidden sm:block">
-          <div className="relative bg-searchbg rounded-2xl w-60 p-1 border border-grashad text-black">
+          <div className="relative bg-[#F7F7F7] rounded-2xl w-60 p-1 border border-black text-black">
             <button
               className="absolute left-0 top-1/2 -translate-y-1/2 cursor-default"
               style={{ paddingLeft: "10px" }}
             >
-              <FontAwesomeIcon icon={faSearch as IconProp} color="white" />
+              <FontAwesomeIcon icon={faSearch as IconProp} color="black" />
             </button>
 
             <input
               type="text"
               placeholder="Search..."
-              className="max-w-[220px] bg-transparent pl-9 pr-4 font-medium focus:outline-none xl:w-125 placeholder-placeholdercolor text-white"
+              className="max-w-[220px] bg-transparent pl-9 pr-4 font-medium focus:outline-none xl:w-125 placeholder-black text-black"
               onChange={handleGlobalSearch}
               value={searchValue}
             />
