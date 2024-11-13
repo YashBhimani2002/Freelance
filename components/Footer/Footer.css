@@ -1,0 +1,29 @@
+@media only screen   
+and (min-device-width : 250px)   
+and (max-device-width : 639px)  
+{ 
+    .about-contact-div{
+        margin-left: 10px;
+    }
+    .About-us-div{
+        display: block;
+        width: 200px;
+    }
+
+    .About-us-div a {
+        display: block;
+        font-size: 15px;
+        padding-bottom: 5px;
+
+    }
+
+    .Contact-us-div{
+        width: auto;        
+    }
+
+    .Contact-us-div a{
+        display: block;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+}

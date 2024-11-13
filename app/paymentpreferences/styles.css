@@ -1,0 +1,307 @@
+.slideInFromTop {
+    animation: slideInFromTop 0.5s forwards;
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slideOutToTop {
+  animation: slideOutToTop 0.5s forwards;
+}
+
+.position{
+    position: relative;
+}
+
+.position_icone{
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+
+.position-new{
+    top: 45px;
+    position: absolute;
+    right: 25px;
+}
+
+@keyframes slideOutToTop {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
+
+.full_width .input-box label{
+ margin-bottom: 7px !important;
+} 
+
+.domestic {
+    margin-bottom: 30px;
+}
+
+.bank_detail_title {
+    margin-bottom: 15px;
+    background-color: transparent !important;
+}
+
+.bank_detail {
+    box-shadow: 0px 10px 40px -30px #000;
+    border-radius: 20px;
+}
+
+
+.bank_detail_tbl_title {
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #0076cb;
+    padding: 10px 15px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bank_form_btn {
+    background: #fff;
+    border-radius: 30px;
+    color: #000;
+    letter-spacing: normal;
+    padding: 5px 10px;
+    cursor: pointer !important;
+}
+
+.bank_form_btn:hover {
+    background-color: #FF661E;
+    color: #ffffff;
+}
+
+.bank_detail_tbl_data {
+    padding: 25px;
+    overflow-x: auto;
+}
+
+.bank_detail_tbl_data table {
+    width: 100%;
+}
+
+.bank_detail_tbl_data table th {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #E9F1FF;
+    color: #0076cb;
+    text-align: center;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.bank_detail_tbl_data table td {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    color: gray;
+    font-family: 'Inter', sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
+.bank_detail_tbl_data table tbody tr td:first-child {
+    text-align: left;
+}
+
+.bank_detail_tbl_data_remove_btn {
+    display: block;
+    margin: 0;
+    padding: 7px 10px;
+    color: #ffffff;
+    border-radius: 6px;
+    background: #ce0000;
+    border: none;
+    cursor: pointer !important;
+}
+
+.bank_detail_tbl_data_edit_btn {
+    width: 80px;
+    border-radius: 0;
+    height: 38px;
+    padding: 0 12px;
+    margin-right: 10px;
+    line-height: 38px;
+    display: block;
+    color: #FFFFFF;
+    background: #0076cb;
+    border: none;
+    cursor: pointer !important;
+    border-radius: 6px;
+}
+
+.custome-width{
+    width: auto;
+}
+
+.custome-flex{
+    justify-content: space-evenly;
+}
+.bank_detail_tbl_data_edit_btn:hover {
+    background-color: #000;
+}
+
+.Payment_Policy_msg {
+    color: #adadad;
+    font-family: 'Inter', sans-serif !important;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.Payment_Policy_msg span {
+    color: #0064cb;
+    cursor: pointer !important;
+}
+
+
+.my-billings-add-a-card .close-icon {
+    color: #ffffff;
+    background: #3399ff;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    cursor: pointer;
+    right: -16px;
+    width: 36px;
+    height: 36px;
+    line-height: 28px;
+    overflow: visible;
+}
+
+.modal{
+    overflow: visible;
+}
+
+.my-billings-add-a-card .modal-header {
+    padding: 0;
+    border: 2px solid red;
+}
+
+.my-billings-add-a-card .modal-body {
+    padding: 40px !important;
+}
+
+.my-billings-add-a-card .input-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.full_width {
+    float: left;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+label.radio-btn-name,
+.full_width.input-box label {
+    color: #000 !important;
+    margin-bottom: 7px !important; 
+}
+
+.my-billings-add-a-card .input-box input {
+    outline: none;
+    border-radius: 12px;
+    color: #aaaaaa;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 7px 20px -8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.my-billings-add-a-card .card-icon {
+    width: 30px;
+    height: 22px;
+    object-fit: contain;
+    position: absolute;
+    top: 13px;
+    left: 19px;
+}
+.my-billings-add-a-card .card-icon-1 {
+    width: 30px;
+    height: 22px;
+    object-fit: contain;
+    position: absolute;
+    top: 42px;
+    left: 19px;
+
+}
+select#b_type {
+    outline: none;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 7px 20px -8px rgb(0 0 0 / 30%);
+    width: 100%;
+    border-radius: 12px;
+    appearance: none !important;
+}
+
+.my-billings-add-a-card .add-card-btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #008acf;
+    border-radius: 40px;
+    padding: 13px 30px;
+    cursor: pointer !important;
+}
+
+.my-billings-add-a-card .add-card-btn.cancle-color-change {
+    background-color: #ce0000;
+    margin: 0;
+    padding: 13px 43px;
+}
+
+.my-billings-add-a-card .billing-address-title {
+    color: #000000;
+}
+
+.full_width .input-box label {
+    margin-bottom: 7px;
+    padding: 16px;
+}
+
+.full_width.input-box label.customErrorClass {
+    color: red !important;
+}
+
+
+@media (max-width: 767px){
+    .my-billings-add-a-card .close-icon {
+        top: -10px;
+        right: -10px;
+    }
+    .custome-width{
+        width: 200px;
+    }
+    .custome-flex{
+        justify-content: space-between;
+    }
+}

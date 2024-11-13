@@ -1,0 +1,26 @@
+/* Default width */
+/* .aside_width {
+  width: 320px;
+} */
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 1024px) {
+  .aside_width {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    ;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.border_style li {
+  border-left: 1px dashed rgb(194, 192, 192);
+  padding:0.3rem 0px;
+}
+.border_style_p li{
+  border-left: 1px dashed rgb(194, 192, 192);
+}

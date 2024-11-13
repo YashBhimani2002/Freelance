@@ -1,0 +1,54 @@
+.payment-modal-body-praiki{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    gap: 5px;
+}
+
+.payment-modal-praiki{
+    width: 100%;
+}
+
+.payment-radio-option-praiki{
+    width: 100%;
+    padding: 25px 15px;
+    background: rgba(233, 241, 255, 0.89);
+    display: flex;
+    align-items: center;
+}
+@media(min-width:767px){
+    .payment-radio-option-praiki{
+        width: 30%;
+    }
+    .payment-modal-body-praiki{
+        gap: 5%;
+    }
+}
+
+.payment-add-milestone-praiki{
+    cursor: pointer!important;
+    background-color: #1068AD;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px!important;
+    line-height: 28px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 10px 12px!important;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.payment-add-milestone-praiki:hover{
+    background-color: #fff;
+    color: #286cac;
+    border: 1px solid #286cac;
+}
+
+.payment-method-radio-button-praiki{
+    margin-right: 10px;
+}

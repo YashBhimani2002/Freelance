@@ -1,0 +1,219 @@
+.MainContainer{
+  padding: 12px 47px !important;
+}
+
+.shadeInAnimation{
+  animation: shadeInani 0.5s forwards;
+}
+
+@keyframes shadeInani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slideInFromTop {
+  animation: slideInFromTop 0.5s forwards;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.client-container_syn {
+  border-radius: 15px;
+  height: auto;
+  background-color: #fff;
+}
+.client_view_profile_backbutton_syn {
+  border: 1px solid #a6b7f4;
+  padding: 24px;
+  border-radius: 14px;
+}
+.client-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.client-back {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.98px;
+  margin-left: 10px;
+  cursor: pointer !important;
+}
+.client-inner-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer !important;
+  gap: 10px;
+}
+.client-contract-detials {
+  background-color: #e9f1ffe3;
+  margin-top: 3%;
+  border-radius: 18px;
+}
+.client-cont-detial2 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.client-cont-detial3 {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+.client-cont-detial4 {
+  padding: 0px 0px 3px 10px;
+}
+.client-cont-detial5 {
+  padding: 0px 0px 10px 10px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.client-tab-button {
+  background-color: #fff;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.client-tab-button:hover {
+  background-color: #e9f1ffe3;
+  color: #3C64B1;
+}
+
+.client-tab-button.active {
+  background-color: #e9f1ffe3;
+  color: #3C64B1;
+}
+.client-cont-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+.client-cont-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 4px;
+  margin-top: 4px;
+}
+.client-contract-box {
+  margin-right: 15px;
+  border: 1px solid var(--gray-200, #e2e8f0);
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 12px;
+  display: grid;
+  font-size: 14px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.client-contract-box-span-button{
+  font-size: 14px;
+  font-weight: 500;
+  background: #0076cb0f;
+  padding: 7px 10px;
+  color: #000 !important;
+  border-radius: 15px;
+  border-radius: 50px !important;
+}
+
+.client-contract-box2 {
+  margin: 0px 15px 0px 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.payment-disabled-button{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.no-payment{
+  display: none;
+}
+
+.client-cont-end-button {
+  border: 1px solid var(--gray-200, #e2e8f0);
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #E9F1FF;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #434343;
+  padding: 15px 10px;
+}
+.client-contract-submitBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e9f1ffe3;
+  background-color: #e9f1ffe3;
+  border-radius: 10px;
+  padding: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+
+.add-milestone{
+  cursor: pointer!important;
+  background-color: #E9F1FF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px!important;
+  line-height: 28px;
+  color: #434343;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 10px 12px!important;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.add-milestone:disabled{
+  opacity: 0.65!important;
+  cursor: not-allowed!important;
+}
+
+.add-milestone:hover{
+background-color: #1068AD;
+color: #fff
+}
+.hide-scrollbar{
+  overflow-y: scroll;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.shdow_card {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.blur {
+  filter: blur(1px) !important; /* Adjust the blur intensity as needed */
+  pointer-events: none; /* Disable pointer events to prevent interaction */
+}
+

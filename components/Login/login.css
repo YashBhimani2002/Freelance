@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-panel {
+  color:red;
+  height: 100%;
+  width: 100%;
+}
+
+.gstart-sec {
+  overflow: hidden;
+  background: #f1f3f6;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.login-row,
+.login-col {
+  height: 100%;
+  margin-right: 0px !important;
+}
+.image-getstart {
+  height: 100vh;
+  width: 100%;
+}
+.image-getstart img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0px;
+}
+.login-row {
+  display: flex;
+  width: 100%;
+}
+
+
+
+.footer-line span {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif !important;
+  color: #2d3748;
+  letter-spacing: 0.5px;
+}
+
+.footer-line span .signhover {
+  color: #2884cc;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+a.btn.btn-linked {
+  text-align: center;
+  color: #fff;
+  background: #0274b3;
+  box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  padding: 8px 5px;
+  height: 47px;
+  border: 1px solid #0274b3;
+  font-family: "Inter", sans-serif;
+}
+
+.linkdin {
+  height: 30px;
+  width: 30px;
+}
+
+.btn.btn-google:hover,
+.btn.btn-google:focus {
+  border: 1px solid #2884cc;
+}
+
+.btn.btn-facebook:hover,
+.btn.btn-facebook:focus {
+  border: 1px solid #fff;
+  background-color: #1877f2;
+  color: #fff;
+}
+.btn-blue {
+  background: #286cac !important;
+  color: #fff !important;
+  height: 39px !important;
+  text-align: center !important;
+  border: 1px solid #2884cc !important;
+  border-radius: 6px !important;
+  margin-top: 5px !important;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  background: transparent !important;
+  color: #286cac !important;
+  border-color: #286cac !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.footer-line span .signhover:hover,
+.forgot a,
+.footer-line span .linkhover:hover {
+  color: #ff661e;
+}
+
+.error {
+  color: red !important;
+  font-size: 15px !important;
+  margin: 0px !important;
+  line-height: normal !important;
+}
+
+@media (max-width: 1400px) {
+  .button-box1 {
+    margin-bottom: 15px;
+  }
+
+  .login-col {
+    padding-right: 0px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .button-box2 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image-getstart img {
+    object-fit: fill;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1316px) {
+  .button-google {
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1316px) {
+  .btn.btn-google,
+  .btn.btn-facebook,
+  .btn.btn-linked {
+    display: block;
+    font-size: 11px;
+    padding: 11px 10px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .button-google {
+    padding: 40px 0 40px;
+  }
+
+  .image-getstart img {
+    height: 550px;
+    object-fit: contain;
+  }
+
+  a.btn.btn-linked,
+  .btn.btn-google,
+  .btn.btn-facebook {
+    width: 80%;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    height: auto;
+  }
+
+  .gstart-info-main {
+    position: relative;
+    height: auto;
+  }
+
+  .image-getstart img {
+    height: 470px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .gstart-info-main {
+    height: auto !important;
+  }
+
+  .login-info {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .login-info h1 {
+    font-size: 25px;
+  }
+
+  .login-info h1 {
+    margin-bottom: 15px !important;
+  }
+
+  .footer-line span {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif !important;
+    color: #2d3748;
+  }
+
+  .button-google {
+    padding: 20px 0;
+  }
+
+  .btn.btn-google,
+  .btn.btn-facebook {
+    margin-bottom: 17px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .login-col2 {
+    padding: 0px !important;
+  }
+
+  .login-form {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .login-form {
+    text-align: left;
+  }
+
+  .login-form .forgot {
+    text-align: center;
+  }
+
+  .btn-blue {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-blue {
+    width: auto;
+  }
+
+  .image-getstart img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.gstart-sec .alert.alert-danger {
+  margin-top: 50px;
+  width: 95%;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: 0.5;
+  background-color: transparent;
+  border: none !important;
+}
+
+.gstart-sec .alert.alert-success {
+  width: 95%;
+  position: relative;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+
+  left: 0;
+  right: 0;
+  top: 30px;
+}
+
+button.btn.btn-facebook.metro {
+  display: inline-flex;
+}
+a.btn.btn-linked.btn-facebook {
+  display: inline-flex;
+}

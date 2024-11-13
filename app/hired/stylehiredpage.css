@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+.MainContainer{
+    padding: 35px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ActiveContracts{
+    background-color: white;
+    color: #3C64B1;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-color: #E9F1FF;
+    border: none;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Inter';
+}
+.EndedContracts{
+    background-color: white;
+    color: #3C64B1;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-color: #E9F1FF;
+    border: none;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Inter';
+
+}
+.ActiveContracts.active {
+    background-color: #E9F1FF;
+    color: #3C64B1;
+    border-color: #E9F1FF;
+}
+
+.EndedContracts.active {
+    background-color: #E9F1FF;
+    color: #3C64B1;
+    border-color: #E9F1FF;
+}
+
+.ActiveContracts:hover {
+    background-color: #E9F1FF;
+    color: #3C64B1;
+    border-color: #E9F1FF;
+}
+
+.EndedContracts:hover {
+    background-color: #E9F1FF;
+    color: #3C64B1;
+    border-color: #E9F1FF;
+}
+.inputtag{
+    border: 1px solid #A6B7F4;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.submitbtn{
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    background-color: #2884cc;
+    height: 50px;
+    width: 110px;
+    border-color: #2884cc;
+    color: white;
+    margin-left: -40px;
+    border: none;
+}
+.selectmenuUpdated{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E2E8F0;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.MainContainer{
+    padding: 10px;
+}
+
+
+.job-search-box{
+    border: 1px solid #A6B7F4;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.job-search-box h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.job-search-box .price .App_Job_listing{
+padding: 0;
+}
+
+.job-search-box .price ul li {
+    display: inline-block;
+    margin-right: 14px;
+    color: #434343;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+.main-container-serch{
+    margin-top: 1%;
+}
+.mycontract-search{
+    width: 90%;
+}
+.mycontract-dropdown{
+    width: 10%;
+    justify-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .main-container-serch{
+        display: contents;
+    }
+    .inputtag{
+        width: 77%;
+    }
+    .mycontract-search{
+        width: 100%;
+    }
+    .mycontract-search{
+        margin-top: 2%;
+    }
+    .mycontract-dropdown{
+        width: 95%;
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .inputtag{
+        width: 77%;
+    }
+    .mycontract-dropdown{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .mycontract-dropdown{
+        width: 70%;
+    }
+    .inputtag{
+        width: 80%;
+    }
+}
+@media (max-width:380px){
+    .inputtag{
+        width: 90%;
+    }
+    .submitbtn{
+        width: 60px;
+    }
+
+}

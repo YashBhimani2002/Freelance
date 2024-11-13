@@ -1,0 +1,692 @@
+.__className_81fb23 {
+  font-family: '__Inter_81fb23', '__Inter_Fallback_81fb23';
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1.05px !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .signup-sec {
+    height: auto;
+    overflow: hidden;
+    background: #f1f3f6;
+    position: relative;
+  }
+  .side-step {
+    background-color: #1068ad;
+    width: 25.6%;
+    height: 100vh;
+    position: fixed;
+  }
+  .signup-sec .logo-image {
+    padding: 12px;
+  }
+  .stepwizard {
+    height: 84dvh;
+    vertical-align: unset;
+    align-items: center;
+  }
+  .stepwizard-row.setup-panel h2 {
+    font-size: 39px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .stepwizard-step {
+    display: block;
+    text-align: left;
+    position: relative;
+  }
+  .btn-circle11 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+  }
+  .btn-circle22 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+  }
+  .btn-circle11:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    text-align: center;
+    margin: auto;
+    height: 18px;
+    width: 1px;
+    background-color: #fff;
+  }
+  .btn-circle11:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/images/Sidebar/check-mark.png') no-repeat;
+    background-size: cover;
+  }
+  
+  .stepwizard-step p {
+    margin-top: 0px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  .btn-circle22:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/images/Sidebar/check-mark.png') no-repeat;
+    background-size: cover;
+  }
+
+  section.gstart-sec.signup-sec .alert-success {
+    top: 50px;
+  }
+  .gstart-sec .alert.alert-success {
+    width: 95%;
+    position: relative;
+  }
+
+  
+  .gstart-info-main {
+    position: relative;
+    height: auto;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .pro-login-info {
+    padding-top: 70px;
+  }
+  
+  .title {
+    color: #434343;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 30px;
+  }
+  .footer-line span {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #2d3748;
+  }
+  .footer-line span a {
+    color: #2884cc;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .or-email {
+    margin-bottom: 40px;
+  }
+  .or-email span {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    color: #7e8082;
+  }
+  .panel-body .form-group {
+    margin-bottom: 20px;
+  }
+  .step .form-group label {
+    color: #2d3748;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+ 
+
+
+ 
+  .step .form-group input,
+  .step .form-group select {
+    height: 40px;
+    border: 1px solid #e2e8f0;
+    border-radius: 0;
+    background: #fff;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px !important;
+  }
+  .field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: #43434342;
+  }
+  .step .form-group input,
+  .step .form-group select {
+    height: 40px;
+    border: 1px solid #e2e8f0;
+    border-radius: 0;
+    background: #fff;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px !important;
+  }
+  .panel-body .form-check {
+    margin-bottom: 10px;
+  }
+  .step .form-check-input {
+    margin-top: 6px;
+    border-radius: 0;
+  }
+
+  .form-check label {
+    font-size: 14px !important;
+    color: #718096;
+    margin-bottom: 0;
+  }
+  .form-check label a {
+    color: #2884cc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button-google {
+    padding: 30px 0 60px;
+  }
+  .btn.btn-google {
+    text-align: center;
+    margin-right: 10px;
+    background: #fff;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 10px 15px;
+    height: 47px;
+  }
+  .btn.btn-google img {
+    margin-right: 10px;
+  }
+  .btn.btn-facebook {
+    text-align: center;
+    margin-right: 10px;
+    color: #fff;
+    background: #1877f2;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 10px 10px;
+    height: 47px;
+  }
+  .btn.btn-facebook img {
+    margin-right: 10px;
+  }
+  a.btn.btn-linked {
+    text-align: center;
+    color: #fff;
+    background: #0274b3;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 8px 5px;
+    height: 47px;
+    border: 1px solid #0274b3;
+  }
+  a.btn.btn-linked img {
+    width: 29px;
+  }
+  .btn-account {
+    background: #286cac;
+    color: #fff;
+    height: 39px;
+    text-align: center;
+    border: 1px solid #2884cc !important;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+  .react-tel-input .form-control{
+    border: none !important;
+    position: relative !important;
+    bottom: 1px !important;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1300px) {
+ 
+    .btn.btn-google {
+      text-align: center;
+      margin-right: 10px;
+      background: #fff;
+      box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+      border-radius: 5px;
+      padding: 10px 15px;
+      height: 47px;
+      font-size: 13px;
+    }
+    .btn.btn-google img {
+      margin-right: 10px;
+    }
+    .btn.btn-facebook {
+      text-align: center;
+      margin-right: 10px;
+      color: #fff;
+      background: #1877f2;
+      box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+      border-radius: 5px;
+      padding: 10px 10px;
+      height: 47px;
+      font-size: 13px;
+    }
+    .btn.btn-facebook img {
+      margin-right: 10px;
+    }
+    a.btn.btn-linked {
+      text-align: center;
+      color: #fff;
+      background: #0274b3;
+      box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+      border-radius: 5px;
+      padding: 8px 5px;
+      height: 47px;
+      border: 1px solid #0274b3;
+      font-size: 13px;
+    }
+    a.btn.btn-linked img {
+      width: 29px;
+    }
+
+    .createCompanyProfile{
+      margin-left: 335px !important;
+    }
+  }
+  @media (max-width: 991px) {
+
+
+    .pro-login-info {
+      padding-top: 20px;
+    }
+    .pro-login-info h1 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+    .button-google {
+      padding: 40px 0 40px;
+    }
+    a.btn.btn-linked,
+    .btn.btn-google,
+    .btn.btn-facebook {
+      width: 80%;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    .gstart-sec .logo-image {
+      position: absolute;
+      left: 50px;
+      top: 30px;
+    }
+
+    .createCompanyProfile{
+      margin-left: 270px !important;
+    }
+  }
+  @media (max-width: 767px) {
+  
+ 
+    .pro-login-info {
+      padding: 20px;
+      
+    }
+    .pro-login-info h1 {
+      font-size: 25px;
+    }
+    .footer-line {
+      margin-bottom: 15px;
+    }
+    .footer-line span {
+      font-size: 15px;
+    }
+    .button-google {
+      padding: 20px 0;
+    }
+    .btn.btn-google,
+    .btn.btn-facebook {
+      margin-bottom: 17px;
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
+    .form-check,
+    .form-group {
+      text-align: left;
+    }
+    button.btn.btn-blue.w-auto {
+      width: 95% !important;
+      margin-left: 15px;
+    }
+    .createCompanyProfile{
+      margin-left: 0px !important;
+      padding: 10px !important;
+    }
+  }
+  @media (max-width: 575px) {
+    button.btn.btn-blue.w-auto {
+      width: 90% !important;
+      margin-left: 15px;
+    }
+  }
+  
+  .error {
+    color: red !important;
+    font-size: 12px !important;
+    margin: 0px !important;
+    line-height: normal !important;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .praiki_create_company_profile_container_syn {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .praiki_create_company_join_praiki_container_syn {
+    width: 25.6%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  
+  .btn-circle3:after {
+    content: "3";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.7;
+    font-family: "Inter", sans-serif;
+  }
+  .btn-circle3 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+  }
+  .praiki_contry_state_city_required_syn {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .praiki_contry_state_city_required_parent_div_syn {
+    margin-bottom: 20px;
+    width: 30%;
+  }
+  
+  .stsearch-box {
+    background-color: white !important;
+    border: 1px solid #e2e8f0 !important;
+    padding: 0.375rem 0.75rem !important;
+  }
+  
+  .stsearch-box input {
+    border: none !important;
+    padding: 0px !important;
+    outline: none !important;
+  }
+  
+  .stdropdown-container {
+    border: none !important;
+  }
+  
+  .praiki_contry_state_city_required_main_container_syn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .praiki_contect_designation_syn {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .praiki_company_address_textarea_syn textarea {
+    width: 100%;
+    padding: 0.375rem 0.75rem !important;
+    border: 1px solid #e2e8f0;
+  }
+  
+  
+  .praiki_create_company_profile_form_syn {
+    width: 58%;
+    margin: auto;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 0;
+    justify-content: end;
+  }
+  
+  .praiki_contect_syn {
+    margin-bottom: 20px;
+    width: 49%;
+  }
+  
+  .praiki_designation_syn {
+    width: 49%;
+  }
+  
+  .praiki_error_massage_syn {
+      color: red !important;
+      font-size: 15px !important;
+      margin-top: 3px !important;
+      line-height: normal !important;
+      font-family: 'Inter', sans-serif;
+  }
+  
+  .praiki_select_option_country_syn{
+      padding: 8px;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.375rem;
+      width: 100%;
+  }
+
+  .createCompanyProfile{
+    margin-left: 444px;
+  }
+  
+  
+  @media only screen and (min-width: 1560px) {
+    .praiki_create_company_profile_form_syn {
+      display: flex;
+      min-height: 100dvh;
+      align-items: center;
+      margin: 0;
+      justify-content: end;
+    }
+  }
+  
+  @media only screen and (max-width: 1560px) and (min-width: 1441px) {
+    .praiki_create_company_profile_form_syn {
+      display: flex;
+      min-height: 100dvh;
+      align-items: center;
+      margin: auto;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 1440px) and (min-width: 1366px) {
+    .praiki_create_company_profile_form_syn {
+      display: flex;
+      min-height: 100dvh;
+      align-items: center;
+      margin: 0;
+      justify-content: end;
+    }
+  }
+  @media only screen and (max-width: 1365px) and (min-width: 1280px) {
+    .praiki_create_company_profile_form_syn {
+      display: flex;
+      min-height: 100dvh;
+      align-items: center;
+      margin: auto;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 1279px) and (min-width: 1024px) {
+    .praiki_create_company_profile_form_syn {
+      display: flex;
+      min-height: 100dvh;
+      align-items: center;
+      margin: auto;
+      justify-content: end;
+    }
+  }
+  
+
+  @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait) {
+    .side-step {
+      width: 34%;
+    }
+    .praiki_create_company_join_praiki_container_syn {
+      width: 34%;
+    }
+    .praiki_create_company_profile_form_syn {
+      display: flex;
+      min-height: 100dvh;
+      align-items: center;
+      margin: auto;
+      justify-content: end;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+  }
+  @media only screen and (min-width: 1366px) {
+  }
+  @media only screen and (max-width: 480px) and (min-width: 320px) {
+  }
+  @media only screen and (max-width: 1440px) and (min-width: 768px) {
+  }
+  @media only screen and (max-width: 767px) and (min-width: 414px) {
+    .stepwizard {
+      height: auto;
+      display: block;
+      padding: 20px;
+    }
+    .side-step {
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+    .praiki_create_company_join_praiki_container_syn {
+      width: 100%;
+    }
+    .praiki_create_company_profile_form_syn {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 413px) and (min-width: 375px) {
+    .stepwizard {
+      height: auto;
+      display: block;
+      padding: 20px;
+    }
+    .side-step {
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+    .praiki_create_company_join_praiki_container_syn {
+      width: 100%;
+    }
+    .praiki_create_company_profile_form_syn {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 374px) and (min-width: 320px) {
+    .stepwizard {
+      height: auto;
+      display: block;
+      padding: 20px;
+    }
+    .side-step {
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+    .praiki_create_company_join_praiki_container_syn {
+      width: 100%;
+    }
+    .praiki_create_company_profile_form_syn {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .stepwizard {
+      height: auto;
+      display: block;
+      padding: 20px;
+    }
+    .side-step {
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+    .praiki_create_company_join_praiki_container_syn {
+      width: 100%;
+    }
+    .praiki_create_company_profile_form_syn {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .praiki_contect_designation_syn {
+      display: block;
+    }
+    .praiki_contect_syn {
+      width: 100%;
+    }
+  
+    .praiki_designation_syn {
+      width: 100%;
+    }
+    .praiki_contry_state_city_required_main_container_syn {
+      display: block;
+    }
+    .praiki_contry_state_city_required_parent_div_syn {
+      width: 100%;
+    }
+  }
+  

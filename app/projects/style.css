@@ -1,0 +1,119 @@
+.custom-datepicker-input {
+    /* Hide the calendar icon */
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+.custom-datepicker-input::placeholder {
+    color: white;
+}
+
+.selected-filter{
+    cursor: pointer !important;
+    font-size: 13px;
+    font-weight: 700;
+    color: #2D3748;
+    font-family: Inter, sans-serif;
+}
+.selected-filter:hover {
+    color: #1068ad;
+}
+.skill-contenyt {
+    display: flex;
+    background: #E9F1FF;
+    align-items: center;
+    border-radius: 6px;
+    padding: 4px;
+    padding-left: 5px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #434343;
+}
+.tailwind-datepicker>button {
+    @apply left-0
+}
+.tailwind-datepicker>button>div>div>span>p {
+    @apply md:block hidden
+}
+.tailwind-datepicker>input{
+    @apply border border-[#E2E8F0] p-2 pl-1 rounded-lg md:w-full
+}
+.tailwind-datepicker>div>div {
+    @apply bg-transparent text-[black] border-none
+}
+
+/* .tailwind-datepicker>div>div>div {
+    @apply !min-h-[200px] h-[100%] lg:!h-[200px] bg-[#b3dafb] rounded-md
+} */
+
+/* @media only screen and (max-width: 767px)
+        { */
+            .tailwind-datepicker>div{
+                @apply bg-transparent fixed  top-[9rem] lg:top-[10rem] lg:left-[31.2rem] left-0 py-4 px-10
+            }
+            
+/* } */
+
+.tailwind-datepicker>div>div>div>div {
+    @apply flex items-stretch flex-col md:flex-row space-x-1 space-y-0 pl-1 pr-1 
+}
+.tailwind-datepicker>div>div>div>div {
+    @apply h-[400px] md:h-[210px] md:w-[40rem] bg-[#e8f1ff] p-4 rounded-md
+}
+.tailwind-datepicker>div>div>div>div>div {
+    @apply h-[168px] bg-[#e8f1ff]
+}
+.tailwind-datepicker>div>div>div>div>div> {
+    @apply !min-h-[200px]
+}
+.tailwind-datepicker>div {
+    @apply h-auto
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>div>button{
+    @apply border-[white] text-[black] !p-0
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>button>svg{
+    @apply !w-[0.8rem]
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>button{
+    @apply !p-0
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>button {
+    @apply hover:text-[white] hover:bg-[#0F67AD] hover:rounded-none hover:shadow-1 !text-[10px] !w-full !h-4
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>div {
+    @apply !w-full !h-4 !text-[10px]  px-[0.6rem] md:py-0 md:px-0
+}
+.tailwind-datepicker>div>div>div>div>div>div>div {
+    @apply py-[0.2rem] px-[0.6rem] md:py-[0.2rem] md:px-0
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>button.bg-blue-100 {
+    @apply hover:text-[white] bg-[#c2d8f2]
+}
+.tailwind-datepicker>div>div>div>div>div>div>div>button.text-white {
+    @apply bg-[#0F67AD] text-[white] rounded-none;
+}
+@media screen and (max-width: 767px) {
+    .custom-datepicker-input {
+        /* Hide the calendar icon */
+        width: 5rem;
+    } 
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .custom-datepicker-input {
+        /* Hide the calendar icon */
+        width: 7rem;
+    }
+        
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .custom-datepicker-input {
+        /* Hide the calendar icon */
+        width: 14rem;
+    }
+        
+}

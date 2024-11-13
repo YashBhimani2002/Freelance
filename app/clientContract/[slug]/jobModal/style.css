@@ -1,0 +1,343 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.top-box{
+    width: 100%;
+    background-color: rgba(233, 241, 255, 0.89);
+    border-radius: 27px;
+    height: auto;
+    padding:30px 25px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.F{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 35.5px;
+}
+.modal-title{
+    font-style: normal;
+    line-height: 41.18px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pa{
+    font-size: 21px;
+    font-style: normal;
+    line-height: 31.5px;
+    margin-top: 15px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.obj{
+    font-size: 15px;
+    font-style: normal;
+    line-height: 22.5px;
+    color: #434342;
+}
+#skills{
+    margin-right: 20px;
+    font-size: 11px;
+    font-style: normal;
+    line-height: 16px;
+    color: #434342;
+    margin-top: 15px;
+    color: #434343;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    background: #E9F1FF;
+    border-radius: 9px;
+    padding: 8px 8px 8px 0px;
+}
+.post{
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+}
+#fixed{
+    font-size: 14px;
+    line-height: normal;
+    font-style: normal;
+    margin-right: 15px;
+}
+#amount{
+    font-size: 14px;
+    line-height: normal;
+    font-style: normal;
+}
+.prof{
+    margin-right:5px;
+}
+.low{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.start{
+    margin-right: 15px;
+}
+.contact{
+    font-size: 25px;
+    font-style: normal;
+    line-height: 35.5px;
+    color: black;
+}
+.payment{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+}
+.pay-div2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.pay-text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #718096;
+    margin-left: 5px;
+}
+.pay-div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.form{
+    margin-top: 20px;
+}
+.inputtext{
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+}
+.add-milestone{
+    cursor: pointer!important;
+    background-color: #E9F1FF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px!important;
+    line-height: 28px;
+    color: #434343;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 10px 12px!important;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.add-milestone:disabled{
+        opacity: 0.65!important;
+        cursor: not-allowed!important;
+}
+
+.add-milestone:hover{
+    background-color: #1068AD;
+    color: #fff
+}
+.cover-letter{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #2D3748;
+    margin-bottom: 8px;
+}
+.cover{
+    margin-top: 15px;
+}
+.include{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    margin-top: 15px;
+}
+.files{
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #E9F1FF;
+    width: 118px;
+    margin-top: 5px;
+}
+.pay-summary{
+    background-color: #F6F6F6;
+    height: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 16px;
+}
+.pay-title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2D3748;
+}
+.hlo{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #718096;
+}
+.modal-content{
+    border-radius: 25px;
+}
+.submit{
+    font-size: 18px;
+    font-weight: 600;
+    color: #434343;
+    line-height: 28px;
+    font-style: normal;
+    height: 48px;
+    width: auto;
+    background-color: #E9F1FF;
+    border-radius: 6px;
+    padding: 10px 24px;
+    gap: 8px;
+    margin-right: 8px;
+}
+.submit2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #434343;
+    line-height: 28px;
+    font-style: normal;
+    height: 48px;
+    width: auto;
+    border-radius: 6px;
+    padding: 10px 24px;
+    gap: 8px;
+    margin-right: 8px;
+}
+.scroll::-webkit-scrollbar {
+    display: none !important;
+}
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #fd850d;
+}
+.form-check-input {
+    cursor: pointer!important;
+    background-color: #dee2e6;
+    border: solid  #dee2e6;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label{
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D3748;
+}
+.form-group input {
+    border: 1px solid #E2E8F0;
+    height: 40px;
+}
+.mtask1,.curr1 {
+    display: block;
+    font-family: Inter, sans-serif;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 14px !important;
+}
+
+input.form-control.curr1 {
+    text-align: center;
+    width: 18%;
+    display: inline-block;
+}
+
+.form-control.amt.joincurr {
+    width: 82%;
+    display: inline-block;
+}
+.react-datepicker-wrapper{
+    width: 100%;
+}
+.form-control-file{
+    display: block;
+    width: 100%;
+    margin: 0px!important;
+}
+.save_draft_btn{
+    background-color: #286cac;
+    font-family: Inter, sans-serif!important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px!important;
+    line-height: 28px;
+    color: white;
+    border: none;
+    border:1px solid #fff;
+    padding: 0.375rem 0.75rem;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 42px;
+}
+.save_draft_btn:hover{
+    background: transparent;
+    color: #286cac;
+    border:1px solid #286cac;
+}
+
+.delete_milestone{
+  background-color: #c82333!important;
+  cursor: pointer!important;
+}  
+
+.proposal_error-message{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: Inter, sans-serif!important;
+}
+
+.modal-body, 
+.modal-header{
+    padding: 16px !important;
+}
+
+.error-border {
+    border: 1px solid red !important;
+  }
+@media(max-width:767px){
+    .inputs-respo{
+        flex-wrap: wrap;
+        gap: 0px!important;
+    }
+    .responsiveness-in{
+        width: 100%; 
+    }
+    .modal{
+        padding: 10px;
+    }
+}

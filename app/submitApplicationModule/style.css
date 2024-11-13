@@ -1,0 +1,29 @@
+
+
+.modal-header1{
+    padding: 16px;
+}
+
+.modal-title1{
+    font-style: normal;
+    line-height: 41.18px;
+    font-weight: 600;
+    color: #000;
+    font-size: 25px;
+}
+
+.slideInFromTop {
+    animation: slideInFromTop 0.5s forwards;
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

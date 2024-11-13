@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+.client-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.client-ActiveContracts {
+  background-color: white;
+  color: #000;
+  border-radius: 6px;
+  padding: 8px 15px;
+  margin: 5px;
+  line-height: 24px;
+}
+.client-EndedContracts {
+  background-color: white;
+  color: #000;
+  border-radius: 6px;
+  padding: 8px 15px;
+  margin: 5px;
+  line-height: 24px;
+}
+.client-ActiveContracts.active {
+  background-color: #e9f1ff;
+  color: #3c64b1;
+}
+
+.client-EndedContracts.active {
+  background-color: #e9f1ff;
+  color: #3c64b1;
+  border-color: #e9f1ff;
+}
+
+.client-ActiveContracts:hover {
+  background-color: #e9f1ff;
+  color: #3c64b1;
+  border-color: #e9f1ff;
+}
+
+.client-EndedContracts:hover {
+  background-color: #e9f1ff;
+  color: #3c64b1;
+}
+.client-inputtag {
+  border: 1px solid #a6b7f4;
+  width: 90%;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 57px;
+}
+.client-submitbtn {
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  background-color: #2884cc;
+  height: 50px;
+  width: 110px;
+  border-color: #2884cc;
+  color: white;
+  margin-left: -40px;
+  border: none;
+}
+.client-selectmenu {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.client-contract-show-job-contener {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #a6b7f4;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 30px 0px 0px 0px;
+}
+
+.job-search-box {
+  border: 1px solid #a6b7f4;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.job-search-box h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.job-search-box .price .App_Job_listing {
+  padding: 0;
+}
+
+.job-search-box .price ul li {
+  display: inline-block;
+  margin-right: 14px;
+  color: #434343;
+  margin-bottom: 10px;
+  font-family: Mulish, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.client-main-container-serch {
+  margin-top: 1%;
+}
+.client-mycontract-search {
+  width: 115%;
+}
+
+.client-contract-dropdown {
+  width: 50%;
+  justify-self: end;
+}
+.client-MainContainer {
+  padding: 12px 64px;
+}
+
+.client-contract-view-btn {
+  cursor: pointer !important;
+}
+.client-contract-view-btn:hover {
+  border: 1px solid #2884cc;
+}
+
+.contract-ended-in-my-contract-syn {
+  position: relative;
+  bottom: 20px;
+  left: 85px;
+  background: #718096;
+  width: 39%;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 3px 0px;
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .client-MainContainer {
+    padding: 0 !important;
+  }
+  .client-main-container-serch {
+    display: contents;
+  }
+  .client-inputtag {
+    width: 77%;
+  }
+  .client-mycontract-search {
+    width: 100%;
+  }
+  .client-mycontract-search {
+    margin-top: 2%;
+  }
+  .client-contract-dropdown {
+    width: 95%;
+    margin-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .client-inputtag {
+    width: 77%;
+  }
+  .client-contract-dropdown {
+    width: 75%;
+  }
+  .client-MainContainer {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1024px) {
+  .client-contract-dropdown {
+    width: 70%;
+  }
+  .client-inputtag {
+    width: 80%;
+  }
+  .client-MainContainer {
+    padding: 0 !important;
+  }
+}

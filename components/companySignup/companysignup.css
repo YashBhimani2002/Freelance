@@ -1,0 +1,1018 @@
+.__className_81fb23 {
+    font-family: '__Inter_81fb23', '__Inter_Fallback_81fb23';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.05px !important;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-sec {
+    height: auto;
+    overflow: hidden;
+    background: #f1f3f6;
+    position: relative;
+
+}
+
+.side-step {
+    background-color: #1068AD;
+    width: 444px;
+    height: 100vh;
+    position: fixed;
+}
+
+.side-step-1 {
+    background-color: #1068AD;
+    width: 444px;
+    height: 100vh;
+    position: relative;
+}
+
+.signup-sec .logo-image {
+    position: absolute;
+    left: 20px;
+    top: 10px
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin: 10px 1px;
+}
+
+.stepwizard {
+    display: block;
+    width: fit-content;
+    position: absolute;
+    text-align: left;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 90px;
+}
+
+.stepwizard-row {
+    display: block;
+    text-align: left;
+}
+
+.stepwizard-row.setup-panel h2 {
+    font-size: 39px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.stepwizard-step {
+    display: block;
+    text-align: left;
+    position: relative;
+}
+
+.btn-circle1 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-circle2 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-circle3 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-circle1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    text-align: center;
+    margin: auto;
+    height: 18px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.btn-circle2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    text-align: center;
+    margin: auto;
+    height: 18px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.btn-circle1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/images/Sidebar/check-mark.png') no-repeat;
+    background-size: cover;
+}
+
+.stepwizard-step p {
+    margin-top: 0px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 24px;
+}
+
+.btn-circle2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.btn-circle3:after {
+    content: "3" !important;
+    background: transparent !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+section.gstart-sec.signup-sec .alert-success {
+    top: 50px;
+}
+
+.gstart-sec .alert.alert-success {
+    width: 95%;
+    position: relative;
+}
+
+.side-content-add {
+    display: flex;
+    flex-basis: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.step .form-group label {
+    color: #2D3748;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+.step .form-group label textarea {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+
+}
+
+.reangevice-content {}
+
+.labelDisable{
+    color: #718096 !important;
+}
+
+.reangevice-content form {
+    display: grid;
+    margin: 23px 0px;
+}
+
+.range {
+    width: 100%;
+    height: 10px;
+    -webkit-appearance: none;
+    background: #E2E8F0;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: blue;
+    cursor: pointer;
+    box-shadow: -807px 0 0 800px blue;
+}
+
+.second-section button {
+    padding: 10px 17px;
+    border: none;
+    background: #E2E8F0;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.secound-screen-content {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.work-form-section {
+    width: 100%;
+    height: 100vh !important;
+    position: fixed;
+    top: 0;
+    background-color: #00000070;
+    right: 0;
+    z-index: 11;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.work-form-Content {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.content-hadder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #F2F4F5
+}
+
+.form-input-field {
+    width: 100%;
+    padding: 20px;
+}
+
+.form-group input {
+    margin: 10px 0px;
+}
+
+.form-contory-row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 8px;
+}
+
+.form-contory-row>div>select {
+    width: 200px !important;
+    border: 1px solid #E2E8F0;
+    background: #fff;
+    font-size: 14px !important;
+}
+
+.form-contory-row>div>input {
+    width: 200px !important;
+    padding: 8px;
+    border: 1px solid #E2E8F0;
+    background: #fff;
+    font-size: 14px !important;
+}
+
+.stsearch-box {
+    display: flex;
+}
+
+.stsearch-box input {
+    height: 40px;
+    border: 2px solid #F2F4F5 !important;
+    width: 95%;
+    padding-left: 10px;
+    border-radius: 0px !important;
+}
+
+.stdropdown-tools {
+    margin-left: -25px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 38px;
+}
+
+.date-inputs input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DFDFDF;
+    padding: 0px 10px;
+}
+
+.stdropdown-menu {
+    width: 95%;
+    height: 120px;
+    overflow: auto;
+    position: absolute;
+    background: #FFF;
+}
+
+.form-contory-row select {
+    height: 40px;
+    border: 2px solid #F2F4F5;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.stdropdown-input {
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    user-select: none;
+    border: none !important;
+}
+
+.stdropdown-container {
+    text-align: left;
+    border: none !important;
+    position: relative;
+    border-radius: 5px;
+}
+
+.save-data {
+    padding: 5px 15px;
+    background: #286CAC;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 20px;
+}
+
+.footer-content {
+    border-top: 1px solid #F2F4F5;
+}
+
+.gstart-info-main {
+    position: relative;
+    height: auto;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.login-info {
+    padding-top: 70px;
+}
+
+
+.title {
+    color: #434343;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.footer-line span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2D3748;
+}
+
+.footer-line span a {
+    color: #2884cc;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.or-email {
+    margin-bottom: 40px;
+}
+
+.or-email span {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    color: #7E8082;
+}
+
+.panel-body .form-group {
+    margin-bottom: 20px;
+}
+
+.step .form-group label {
+    color: #2D3748;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+    line-height: normal;
+}
+
+
+
+.step .form-group input,
+.step .form-group select {
+    height: 40px;
+    border: 1px solid #E2E8F0;
+    border-radius: 0;
+    background: #fff;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px !important;
+    margin-top: 5px !important;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: #43434342;
+
+}
+
+.step .form-group input,
+.step .form-group select {
+    height: 40px;
+    border: 1px solid #E2E8F0;
+    border-radius: 0;
+    background: #fff;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px !important;
+}
+
+.panel-body .form-check {
+    margin-bottom: 10px;
+}
+
+.step .form-check-input {
+    margin-top: 6px;
+    border-radius: 0;
+}
+
+
+.form-check label {
+    font-size: 14px !important;
+    color: #718096;
+    margin-bottom: 0;
+}
+
+.form-check label a {
+    color: #2884CC;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-google {
+    padding: 30px 0 60px;
+}
+
+.btn.btn-google {
+    text-align: center;
+    margin-right: 10px;
+    background: #fff;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 10px 15px;
+    height: 47px;
+}
+
+.btn.btn-google img {
+    margin-right: 10px;
+}
+
+.btn.btn-facebook {
+    text-align: center;
+    margin-right: 10px;
+    color: #fff;
+    background: #1877F2;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 10px 10px;
+    height: 47px;
+}
+
+.btn.btn-facebook img {
+    margin-right: 10px;
+}
+
+a.btn.btn-linked {
+    text-align: center;
+    color: #fff;
+    background: #0274b3;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 8px 5px;
+    height: 47px;
+    border: 1px solid #0274b3;
+}
+
+a.btn.btn-linked img {
+    width: 29px;
+}
+
+.btn-account {
+    background: #286cac;
+    color: #fff;
+    height: 39px;
+    text-align: center;
+    border: 1px solid #2884CC !important;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.email-center-content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.content-email {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.short-content {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    justify-items: center;
+}
+
+.content-email h2 {
+    font-size: 44px;
+    color: #434343;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.content-email p {
+    color: #2D3748;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    word-spacing: 5px;
+    text-align: center;
+
+}
+
+.content-email button {
+    background: #2884CC !important;
+    color: #fff !important;
+    width: 135px !important;
+    height: 48px !important;
+    padding: 10px !important;
+    text-align: center !important;
+    border: 1px solid #2884CC !important;
+    border-radius: 5px !important;
+    font-weight: 600;
+
+}
+
+.content-email p span:nth-child(1) {
+    font-weight: bold;
+
+}
+
+.content-email p span:nth-child(2) {
+    margin: 0px 10px;
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .side-step {
+        width: 335px;
+    }
+
+    .side-step-1 {
+        width: 335px;
+    }
+
+    .btn.btn-google {
+        text-align: center;
+        margin-right: 10px;
+        background: #fff;
+        box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        padding: 10px 15px;
+        height: 47px;
+        font-size: 13px;
+    }
+
+    .btn.btn-google img {
+        margin-right: 10px;
+    }
+
+    .btn.btn-facebook {
+        text-align: center;
+        margin-right: 10px;
+        color: #fff;
+        background: #1877F2;
+        box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        padding: 10px 10px;
+        height: 47px;
+        font-size: 13px;
+    }
+
+    .btn.btn-facebook img {
+        margin-right: 10px;
+    }
+
+    a.btn.btn-linked {
+        text-align: center;
+        color: #fff;
+        background: #0274b3;
+        box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        padding: 8px 5px;
+        height: 47px;
+        border: 1px solid #0274b3;
+        font-size: 13px;
+    }
+
+    a.btn.btn-linked img {
+        width: 29px;
+    }
+}
+
+@media (max-width: 991px) {
+    .side-step {
+        width: 270px;
+    }
+
+    .side-step-1 {
+        width: 270px;
+    }
+
+    .stepwizard {
+        left: 50px;
+    }
+
+    .login-info {
+        padding-top: 20px;
+    }
+
+    .login-info h1 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+
+    .side-content-add {
+        display: grid;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-google {
+        padding: 40px 0 40px;
+    }
+
+    a.btn.btn-linked,
+    .btn.btn-google,
+    .btn.btn-facebook {
+        width: 80%;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .gstart-sec .logo-image {
+        position: relative;
+        left: 40px;
+        top: 30px;
+        left: 0px;
+        display: grid;
+        justify-content: space-around;
+        margin: auto;
+
+    }
+
+    .gstart-sec .logo-image img {
+        width: 50px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .side-step {
+        width: 100%;
+        position: relative;
+        height: 400px;
+    }
+
+    .side-step-1 {
+        width: 100%;
+        position: relative;
+        height: 400px;
+    }
+    .form-contory-row select {
+        height: 40px;
+        border: 2px solid #F2F4F5;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .date-inputs {
+        padding: 0px !important;
+        margin: 10px 0px;
+    }
+
+    .form-contory-row {
+        display: flex;
+        width: 100%;
+        flex-flow: wrap;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .work-form-Content {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .email-center-content {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .stepwizard {
+        position: relative;
+        text-align: left;
+        transform: translateY(0%);
+        top: 62px;
+        left: 0px;
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .login-info {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .login-info h1 {
+        font-size: 25px;
+    }
+
+    .phoneinputs {
+        width: 100%;
+        border: 1px solid #E2E8F0 !important;
+        height: 40px !important;
+    }
+
+    .footer-line {
+        margin-bottom: 15px;
+    }
+
+    .footer-line span {
+        font-size: 15px;
+    }
+
+    .button-google {
+        padding: 20px 0;
+    }
+
+    .btn.btn-google,
+    .btn.btn-facebook {
+        margin-bottom: 17px;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .form-check,
+    .form-group {
+        text-align: left;
+    }
+
+    button.btn.btn-blue.w-auto {
+        width: 95% !important;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:575px) {
+    button.btn.btn-blue.w-auto {
+        width: 90% !important;
+        margin-left: 15px;
+    }
+}
+
+.login-info-1 {
+    padding-top: 70px;
+    width: 80% !important;
+}
+
+.login-info-1 h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 991px) {
+    .login-info-1 {
+        padding-top: 20px;
+        width: 95%;
+    }
+
+    .login-info h1-1 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .login-info-1 {
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .login-info-1 h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .login-info-1 {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .login-info-1 {
+        margin-left: 400px !important;
+        width: 55% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width:800px) {
+    .login-info-1 {
+        margin-left: 100px !important;
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 801px) and (max-width:991px) {
+    .login-info-1 {
+        margin-left: 100px !important;
+        width: 80% !important;
+    }
+}
+
+.create_profile_country {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create_profile_country>div>select,
+.create_profile_country>div>input {
+    width: 250px !important;
+    padding: 8px !important;
+
+}
+
+
+
+.btn-d1 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-d1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    text-align: center;
+    margin: auto;
+    height: 18px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.btn-d1::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/images/Sidebar/check-mark.png') no-repeat;
+    background-size: cover;
+}
+
+.btn-d2 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 30px !important;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-d2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    text-align: center;
+    margin: auto;
+    height: 18px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.btn-d2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/images/Sidebar/check-mark.png') no-repeat;
+    background-size: cover;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+

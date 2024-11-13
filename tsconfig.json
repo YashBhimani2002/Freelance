@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/Footer/FooterStyles.js",
+    "app/ui/account_setting/page.js",
+    "app/ui/identity_verification/page.js"
+, "components/test/page.js", "app/job_posting/page.js", "app/landingpage1/component/hero.jsx", "app/helpsupport/Helpmain.jsx", "components/Sidebar/index.tsx", "app/discover/page.jsx", "lib/store.ts", "app/hired/page.jsx", "app/bookmark/page.jsx", "app/clientContract/[slug]/jobModal/page.js", "app/job_posting/DropKeeper.js", "app/message/page.js", "components/common/SubLoader/index.tsx", "app/layout.js", "app/ErrorBoundry.js", "app/error.js", "app/outerfindwork/page.js", "app/outerfindwork/filtersidebar/page.js", "app/outerfindwork/findjob/page.js"  ],
+  "exclude": ["node_modules"]
+}
