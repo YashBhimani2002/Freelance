@@ -206,7 +206,7 @@ const Profile = () => {
                 </div>
                 <div className="Jobs-Created1 d-flex w-100">
                   <div>
-                    <p className="m-0">Praiki Job History</p>
+                    <p className="m-0">Freelance Job History</p>
                     <div className="History-content">
                       <h5
                         className={

@@ -1092,6 +1092,15 @@ export const paysteckPayment = async (data) => {
     console.log("ERROR", err);
   }
 };
+export const demoPaysteckPayment = async (data) => {
+  try {
+    return await axios.post(`${url}/payment/demoPayStack-payment`, data, {
+      withCredentials: true,
+    });
+  } catch (err) {
+    console.log("ERROR", err);
+  }
+};
 
 export const flutterwavePayment = async (data) => {
   try {

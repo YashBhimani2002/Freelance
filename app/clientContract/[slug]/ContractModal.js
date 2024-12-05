@@ -726,7 +726,7 @@ function ContractModal({ isOpen, onClose, myContract, myApplicationDetails }) {
                       <div
                         className={`text-[14px] text-[#718096] mb-[8px] ${inter.className}`}
                       >
-                        Praiki Fees (10%)
+                        Freelance Fees (10%)
                       </div>
                       <div
                         className={`text-[14px] text-[#718096] mb-[8px] ${inter.className}`}

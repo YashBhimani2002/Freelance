@@ -998,7 +998,7 @@ function AplicationModule(props) {
                   <div
                     className={`hlo text-[14px] text-[#718096] mb-[8px] ${inter.className}`}
                   >
-                    Praiki Fees({fees}%)
+                    Freelance Fees({fees}%)
                   </div>
                   <div
                     className={`hlo text-[14px] text-[#718096] mb-[8px] ${inter.className}`}

@@ -570,7 +570,7 @@ export default function InviteProfessional({ data }) {
                             </p>
                             <p className="text-[#434343] font-mulish font-[400] text-[14px]">
                               {val.completedJobs?.length || "0"} Jobs Completed
-                              on Praiki
+                              on Freelance
                             </p>
                             <p className="text-[#434343] font-mulish font-[400] text-[14px]">
                               {totalNetTransactionsAmount

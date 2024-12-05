@@ -462,7 +462,7 @@ export default function ReviewedApplicants({
                                 N0
                               </p>
                               <p className="text-[#434343] font-mulish font-[400] text-[14px]">
-                                0 Jobs Completed on Praiki
+                                0 Jobs Completed on Freelance
                               </p>
                               <p className="text-[#434343] font-mulish font-[400] text-[14px]">
                                 {totalNetTransactionsAmount

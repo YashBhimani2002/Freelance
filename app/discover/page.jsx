@@ -626,7 +626,7 @@ const Discoverpage = () => {
                                   </li>
                                   <li className="inline-block font-mulish font-normal text-xs md:text-base w-1/2 mb-2 text-box_clr">
                                     {item?.completedJobs?.length || "0"} Jobs
-                                    Completed on Praiki
+                                    Completed on Freelance
                                   </li>
                                   <li className="inline-block font-mulish font-normal text-xs md:text-base w-1/2 mb-2  text-box_clr">
                                     {totalNetTransactionsAmount

@@ -712,7 +712,7 @@ const ApplicationDetails = ({ params }) => {
                         <div
                           className={` text-xs md:text-[14px] text-[#718096] mb-[10px] tracking-wide ${inter.className}`}
                         >
-                          Praiki Fees ({fees}%)
+                          Freelance Fees ({fees}%)
                         </div>
                         <div
                           className={` text-xs md:text-[14px] text-[#718096] mb-[10px] tracking-wide ${inter.className}`}

@@ -153,7 +153,7 @@ const Header = (props: {
   return (
     <header className="sticky top-0 z-999 shadow-md ring-1 ring-black ring-opacity-50 flex w-full bg-blue_600    py-[8px] drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
       <div className="items-center gap-2 sm:gap-4 ml-10 hidden lg:flex w-[10rem] h-[4rem]">
-        <Image src={praikiLogo} alt="alt" className="w-full h-full" />
+        <Image src={praikiLogo} alt="alt"  />
       </div>
       <div className="flex items-center gap-2 sm:gap-4 lg:hidden ml-3 ">
         <button

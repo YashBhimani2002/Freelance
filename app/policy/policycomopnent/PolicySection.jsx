@@ -67,7 +67,7 @@ export default function Policybox() {
               <h4
                 className={`${mulish700.className} text-[26px] text-[#000000]`}
               >
-                Praiki Privacy Policy
+                Freelance Privacy Policy
               </h4>
               <p className="mb-[24px]"></p>
               <p
@@ -79,7 +79,7 @@ export default function Policybox() {
               <p
                 className={`mb-[24px] text-base text-[#ADADAD] ${inter700.className} tracking-wide`}
               >
-                1.1. Welcome to Praiki. This policy is a part of our Terms of
+                1.1. Welcome to Freelance. This policy is a part of our Terms of
                 Service. By visiting the Site or using the Apps, you consent to
                 our use of your personal information in the ways set out in this
                 policy and in our Terms of Use. We take our responsibilities
@@ -215,11 +215,11 @@ export default function Policybox() {
                 3.3 As part of the buying and selling process, we will
                 facilitate the sharing of information between the two users
                 involved in the transaction, such as the other buyer’s email
-                address. By making a sale or a purchase on Praiki you are
+                address. By making a sale or a purchase on Freelance you are
                 directing us to share your information in this way. We expect
                 you to respect the privacy of the member whose information you
                 received. Your ability to use this information extend to all
-                Praiki related communication or for any transaction related
+                Freelance related communication or for any transaction related
                 communications. You have not be granted the ability to use the
                 information for unsolicited commercial messages or unauthorised
                 transactions. Without express consent from that person, you must
@@ -350,7 +350,7 @@ export default function Policybox() {
               <h4
                 className={`${mulish700.className} text-[26px] text-[#000000]`}
               >
-                Praiki Terms of Services
+                Freelance Terms of Services
               </h4>
               <p className="mb-[24px]"></p>
 
@@ -363,10 +363,10 @@ export default function Policybox() {
               <p
                 className={`mb-[24px] text-base text-[#ADADAD] ${inter700.className} tracking-wide`}
               >
-                1.1 Welcome to the Praiki platform (the &apos;Site&apos;).
+                1.1 Welcome to the Freelance platform (the &apos;Site&apos;).
                 We&apos;ll refer to our website and other services as our
-                &quot;Services&quot;, and Praiki will be addressed individually
-                or collectively as &quot;Praiki&quot;, &quot;we&quot;,
+                &quot;Services&quot;, and Freelance will be addressed individually
+                or collectively as &quot;Freelance&quot;, &quot;we&quot;,
                 &quot;us&quot;, or &quot;our&quot;. Do read through the
                 following Terms of Service carefully before using the Site or
                 any of our Services. By browsing our Site, you&apos;ll be
@@ -535,7 +535,7 @@ export default function Policybox() {
                 use our Services, subject to our Terms of Service. All
                 proprietary Content, trademarks, service marks, brand names,
                 logos and other intellectual property displayed in the Site are
-                the property of Praiki and where applicable, third parties
+                the property of Freelance and where applicable, third parties
                 proprietors identified in the Site. You agree not to copy,
                 distribute, republish, mirror, frame or create derivative works
                 without our prior written consent.
@@ -763,7 +763,7 @@ export default function Policybox() {
               <p
                 className={`mb-[24px] text-base text-[#ADADAD] ${inter700.className} tracking-wide`}
               >
-                10.1 Praiki is not responsible for disputes in transactions that
+                10.1 Freelance is not responsible for disputes in transactions that
                 result from interactions outside the platform.
               </p>
 
@@ -917,7 +917,7 @@ export default function Policybox() {
               <p
                 className={`mb-[24px] text-base text-[#ADADAD] ${inter700.className} tracking-wide`}
               >
-                11.1.1 Governing Law. The Praiki local laws govern the Terms of
+                11.1.1 Governing Law. The Freelance local laws govern the Terms of
                 Service. The local laws are dependent on the location of
                 incorporation. These laws will then apply no matter where in the
                 world you live.
@@ -1003,7 +1003,7 @@ export default function Policybox() {
               <h4
                 className={`${mulish700.className} text-[26px] text-[#000000]`}
               >
-                Praiki Refund Policy
+                Freelance Refund Policy
               </h4>
               <p className="mb-[24px]"></p>
               <p
@@ -1016,7 +1016,7 @@ export default function Policybox() {
               >
                 1.1 Subject to the terms and conditions in this Refund Policy
                 and the Terms of Service, Buyer may apply for refund for a
-                service purchased on Praiki.
+                service purchased on Freelance.
               </p>
               <p
                 className={`mb-[24px] text-base text-[#ADADAD] ${inter700.className} tracking-wide`}
@@ -1150,7 +1150,7 @@ export default function Policybox() {
                 returned to Seller. Buyer should take the necessary actions to
                 protect their private information when negotiating and engaging
                 with Seller. Refer to Our privacy policy for uses and sharing on
-                Praiki
+                Freelance
               </p>{" "}
             </div>
             {/* refund policy end */}

@@ -23,7 +23,7 @@ export default function PaymentDetail() {
                 className={`${mulish800.className} text-center text-2xl md:text-[40px] text-[#0076cb] md:pb-[57px] pb-[20px]`}
                 id="client"
               >
-                Praiki Payment Policy
+                Freelance Payment Policy
               </h1>
             </div>
             <div className="flex flex-wrap  md:px-[15px] w-full">

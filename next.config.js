@@ -5,9 +5,9 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        domains: ["praiki.com"],
+        domains: ["Freelance.com"],
         protocol: "https",
-        hostname: "praiki.com",
+        hostname: "Freelance.com",
         pathname: "public/assets/**",
       },
     ],

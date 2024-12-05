@@ -674,7 +674,7 @@ function Client() {
                   <h3
                     className={`${mulish700.className} mb-[30px] text-[39px] text-white`}
                   >
-                    Join Praiki
+                    Join Freelance
                   </h3>
                   <div className="stepwizard-step col-xs-3">
                     {signUp === true ? (
@@ -1156,7 +1156,7 @@ function Client() {
                                   htmlFor="subscription"
                                 >
                                   Send occassional email to help me get the most
-                                  out of Praiki.
+                                  out of Freelance.
                                 </label>
                                 <p
                                   className="error my-1"
@@ -1188,7 +1188,7 @@ function Client() {
                                   className="form-check-label"
                                   for="termsconditions"
                                 >
-                                  I understand and agree to the Praiki{" "}
+                                  I understand and agree to the Freelance{" "}
                                   <a
                                     href="/policy#scrollHere2"
                                     className="hoverLink"

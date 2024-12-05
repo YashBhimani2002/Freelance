@@ -693,7 +693,7 @@ function Signup() {
                   </a>
                 </div>
             <div className="flex justify-center items-start w-[100%] m-auto h-full mt-22 sm:mt-0 py-8 md:py-30 lg:py-14 overflow-y-auto px-6 sm:px-20 lg:px-0 scrollbar-custom">
-              <div className="lg:relative w-full lg:w-[80%] xl:w-[70%]">
+              <div className="lg:relative w-full lg:w-[80%] xl:w-[70%] border border-blue bg-[lightblue] rounded-lg p-10">
                
                 <h1
                   className={`text-[25px] md:text-[34px] lg:text-[45px] text-center mb-6 text-box_clr ${mulish700.className}`}

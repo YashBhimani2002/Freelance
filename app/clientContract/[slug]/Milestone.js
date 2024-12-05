@@ -16,6 +16,7 @@ import {
   milstoneData,
   update_Milstone_SubmitReview,
   makeEndContract,
+  demoPaysteckPayment,
 } from "@/app/api/api";
 import io from "socket.io-client";
 import Cookies from "js-cookie";
@@ -166,7 +167,8 @@ const Milestone = (props) => {
     },
   };
 
-  const handlePaymentModalSubmit = () => {
+  const handlePaymentModalSubmit = async () => {
+    
     if (
       paymentMethod == "Stripe" &&
       assignmentState?.currentAssign?.selectedMilestone?.milestone_price < 800
@@ -177,7 +179,33 @@ const Milestone = (props) => {
       setPaymentModel(false);
     } else {
       setOpenModal(false);
-      setPaymentModel(true);
+      // setPaymentModel(true);
+
+      console.log(paymentMethod,',,,,');
+
+      try {
+        const data = {
+          milestone: {
+            jobId: assignmentState?.currentAssign?.selectedMilestone?.job_id,
+            mileid: assignmentState?.currentAssign?.selectedMilestone?._id,
+            amount: assignmentState?.currentAssign?.selectedMilestone
+              ?.milestone_price * 100,
+            payment_gateway: "paystack",
+          },
+          response: "Demo payment",
+        };
+        await demoPaysteckPayment(data);
+        await MilestoneStatusChange({
+          id: assignmentState?.currentAssign?.selectedMilestone?._id,
+          status: "1",
+        });
+        updateCalculation()
+      } catch (error) {
+        console.log(error);
+      } finally {
+        handlepaymentmethodclose()
+      }
+      disableMakePayment()
     }
   };
   // const serverUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
@@ -222,7 +250,7 @@ const Milestone = (props) => {
       milestones: milstoneData,
       jobid: allContract[0].job_id,
     };
-    await update_Milstone_SubmitReview(data).then((res) => {});
+    await update_Milstone_SubmitReview(data).then((res) => { });
     setOpenModal(false);
   };
 
@@ -601,17 +629,17 @@ const Milestone = (props) => {
                             <button
                               onClick={
                                 (index === 0 && index === indexOfStatusZero) ||
-                                (index !== 0 &&
-                                  index === indexOfStatusZero &&
-                                  previousMilestoneStatusIsApproved)
+                                  (index !== 0 &&
+                                    index === indexOfStatusZero &&
+                                    previousMilestoneStatusIsApproved)
                                   ? () => handleAssignToPayClick(milestone)
                                   : null
                               }
                               className={
                                 (index === 0 && index === indexOfStatusZero) ||
-                                (index !== 0 &&
-                                  index === indexOfStatusZero &&
-                                  previousMilestoneStatusIsApproved)
+                                  (index !== 0 &&
+                                    index === indexOfStatusZero &&
+                                    previousMilestoneStatusIsApproved)
                                   ? "client-contract-box-span-button"
                                   : "client-contract-box-span-button payment-disabled-button"
                               }
@@ -709,7 +737,7 @@ const Milestone = (props) => {
             ) : (
               <Tooltip
                 title="Change Contract"
-                  placement="bottom"
+                placement="bottom"
                 arrow
                 componentsProps={tooltipClass}
               >
@@ -732,7 +760,7 @@ const Milestone = (props) => {
             ) : (
               <Tooltip
                 title="Finish Contract"
-                  placement="bottom"
+                placement="bottom"
                 arrow
                 componentsProps={tooltipClass}
               >
@@ -761,7 +789,7 @@ const Milestone = (props) => {
                         <h1
                           className={`${inter600.className} p-5 text-base text-[#000000]  `}
                         >
-                          You are a Praiki Champion, Click ok to share feedback
+                          You are a Freelance Champion, Click ok to share feedback
                         </h1>
                       </div>
                     </div>

@@ -561,7 +561,7 @@ const Profile = () => {
                       <p
                         className={`m-0 text-base md:text-[29px] ${mulish600.className} mb-[15px]`}
                       >
-                        Praiki Job History
+                        Freelance Job History
                       </p>
                       <div
                         className={`History-content ${inter600.className} text-center`}

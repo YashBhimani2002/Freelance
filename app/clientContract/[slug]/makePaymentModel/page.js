@@ -22,18 +22,7 @@ function Jobmodal(props) {
   let { isOpen, onClose, handleModalSubmit, selectedPaymentOption } = props;
   const [paymentMethods, setPaymentMethods] = useState([]);
 
-  useEffect(() => {
-    loadgetPaymentMethods();
-  }, []);
-
-  const loadgetPaymentMethods = async () => {
-    try {
-      const response = await getPaymentMethods();
-      if (response?.status === 200 || response?.status === 201) {
-        setPaymentMethods(response?.data?.data);
-      }
-    } catch (error) {}
-  };
+ 
 
   const handlePaymentChange = (method) => {
     selectedPaymentOption(method);
@@ -78,22 +67,22 @@ function Jobmodal(props) {
           </div>
           <div className="payment-modal-praiki">
             <div className="payment-modal-body-praiki flex flex-wrap">
-              {paymentMethods.length > 0 &&
-                paymentMethods.map((method, index) => (
-                  <div className="payment-radio-option-praiki" key={index}>
+              {/* {paymentMethods.length > 0 &&
+                paymentMethods.map((method, index) => ( */}
+                  <div className="payment-radio-option-praiki" >
                     <input
                       className="payment-method-radio-button-praiki w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                       type="radio"
-                      id={method._id}
+                      id="1"
                       name="paymentMethod"
-                      value={method.payment_method}
+                      value={'Payment'}
                       onChange={() =>
-                        handlePaymentChange(method.payment_method)
+                        handlePaymentChange('demopayment')
                       }
                     />
-                    <label htmlFor={method._id}>{method.payment_method}</label>
+                    <label htmlFor="1">Paystack</label>
                   </div>
-                ))}
+                {/* ))} */}
             </div>
           </div>
           <div className="mt-5 flex align-items-end gap-2  border-t border-solid border-[#e9ecef] p-5">

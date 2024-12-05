@@ -442,7 +442,7 @@ function Hire() {
                                     <span className="font-bold">
                                       {data?.completedJobs?.length || "0"}
                                     </span>{" "}
-                                    Jobs Completed on Praiki
+                                    Jobs Completed on Freelance
                                   </div>
                                   <div className="font-regular">
                                     <span className="font-bold">

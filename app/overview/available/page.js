@@ -447,7 +447,7 @@ const Available = (props) => {
             </h1>
           </div>
         </div>
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           {totalEarnings === 0 ? (
             <button
               className={`btn btn-opacity ${inter600.className} text-gray bg-active_bg`}
@@ -462,7 +462,7 @@ const Available = (props) => {
               Process Withdrawal
             </button>
           )}
-        </div>
+        </div> */}
         <div className="text-end">
           <span
             className={`${inter400.className}`}

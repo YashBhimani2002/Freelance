@@ -1052,7 +1052,7 @@ function CompanyProfile() {
               </div>
               <div className="stepwizard">
                 <div className="stepwizard-row setup-panel">
-                  <h2>Join Praiki</h2>
+                  <h2>Join Freelance</h2>
                   <div className="stepwizard-step col-xs-3">
                     <a
                       href="#step-1"

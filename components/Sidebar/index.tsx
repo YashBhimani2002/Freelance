@@ -1021,7 +1021,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                   </Tooltip>
                                 </Link>
                               </li>
-                              <li
+                              {/* <li
                                 onClick={() =>
                                   router.push("/transactionhistory")
                                 }
@@ -1055,7 +1055,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                     <p>Transaction History</p>
                                   </Tooltip>
                                 </Link>
-                              </li>
+                              </li> */}
                               {/* <li
                                 onClick={() =>
                                   router.push("/paymentpreferences")

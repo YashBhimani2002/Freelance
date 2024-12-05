@@ -10,10 +10,10 @@ import { ForgotPassword } from "../../app/api/api.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import praikiLogo from "../../public/praiki.svg";
-import loginImage from "../../public/login.jpg";
+import loginImage from "../../public/download.jpg";
 import { Inter } from "next/font/google";
 import { Mulish } from "next/font/google";
-import Logo2 from "../../public/image 5.png";
+import Logo2 from "../../public/Pink and Purple Modern Gradient Arts and Crafts Logo (1) (1).png";
 
 const inter = Inter({ subsets: ["latin"], weight: "500" });
 const mulish = Mulish({ subsets: ["latin"], weight: "700" });
@@ -97,7 +97,7 @@ function Forgot() {
         <div className=" flex flex-col md:flex-row justify-center lg:justify-start  h-full w-screen bg-[#F1F3F6] overflow-y-scroll">
           {/* ----------left side-------- */}
           <div className="w-auto h-full hidden lg:block lg:w-[42%] relative overflow-hidden">
-            <div className="w-32 absolute top-3 left-2">
+            {/* <div className="w-32 absolute top-3 left-2">
               <a href="#">
                 <Image
                   src={praikiLogo}
@@ -107,7 +107,7 @@ function Forgot() {
                   height={60}
                 />
               </a>
-            </div>
+            </div> */}
             <div className="w-full h-full overflow-hidden md:pr-1">
               <a href="#">
                 <Image
